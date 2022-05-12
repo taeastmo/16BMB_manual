@@ -21,7 +21,7 @@ Attached below is a screen shot of the PEC User Interface.
 
 .. figure:: /images/operation/EPICS_user_interface.png
    :alt: EPICS_user_interface
-   :scale: 60 %
+   :scale: 50 %
    :align: center
 
 It interfaces the control widgets with 16-BM-B station shutters, SR status, EPS status, most demanded
@@ -85,6 +85,12 @@ On the PEC user interface,
 EDXD data collation and viewing is done using the :ref:`hpMCA <hpMCA>` software:
 
 1. Open ‘hpMCA’ from shortcut on desktop
+
+.. figure:: /images/hpmca/hpmca_main_screen.png
+   :alt: hpmca_main_screen
+   :scale: 80 %
+   :align: center
+
 2. File -> foreground -> open detector.
 3. Click ‘OK’, keeping the default MCA PV name.
 
@@ -96,7 +102,7 @@ EDXD data collation and viewing is done using the :ref:`hpMCA <hpMCA>` software:
 
 Bluediamond
 -----------
-The Java-based HPCAT Bluediamond software is a real-time scan viewer program. The user shortcut can be found on the Windows desktop. If the software is started fresh, go to “Configuration” -> “open” to open the input configuration file named “16BMB.txt” in the “C:\HPCAT Software” directory.  Note that this directory is local, but can be any directory in the network.  The software is straightforward to use and most of the menu items are self- instructing.
+The Java-based HPCAT Bluediamond software is a real-time scan viewer program. The user shortcut can be found on the Windows desktop. If the software is started fresh, go to “Configuration” -> “open” to open the input configuration file named “16BMB.txt” in the “C:\\HPCAT Software” directory.  Note that this directory is local, but can be any directory in the network.  The software is straightforward to use and most of the menu items are self- instructing.
 
 Various detectors can be displayed in the scan:
 
@@ -142,7 +148,7 @@ There are 2 ways to search sample Y and/or Z positions:
 
     .. figure:: /images/operation/scan_launch.png
         :alt: scan_launch
-        :scale: 50 %
+        :scale: 45 %
         :align: center
 
 - Set scan parameters of ‘Start’, ‘End’ and ‘#Pts’ (#Pts has to be odd number) (confirm ‘Relative’).
@@ -332,3 +338,11 @@ In both cases, after cooling,
 .. warning:: Do not touch on press at least until turning off the power of heater power supply. Even after the power off, please take care. If you heated more than 1000 °C for more than several hours, press body may be hot. Please wait a while to cool down press body.
 
 After cooling of press body, please remove heating cables.
+
+
+Data logging
+------------
+
+Program **Log book** saves compression and heating records with time. Log book allows recording any process variable (PV)
+
+- Open ‘Log book’ from desktop shortcut.
