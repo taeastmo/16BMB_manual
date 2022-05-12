@@ -10,14 +10,14 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Table of Contents:
+   :caption: User guide:
    
    beamline_description
    beamline_operation
 
 .. toctree::
    :maxdepth: 2
-   :caption: hpMCA:
+   :caption: Beamline software:
    
    hpmca
    
