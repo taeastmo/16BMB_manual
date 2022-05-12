@@ -1,20 +1,23 @@
-.. 16-BM-B documentation master file, created by
-   sphinx-quickstart on Wed May 11 19:18:25 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. _home:
 
 16-BM-B PE Press Experiments User Manual
 ========================================
 
+.. figure:: /images/beamline_16bmb.png
+   :alt: 16-BM-B
+   :scale: 40 %
+   :align: center
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Table of Contents:
+   
+   beamline_description
+   beamline_operation
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+   :caption: hpMCA:
+   
+   hpmca
+   
