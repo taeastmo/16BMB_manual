@@ -19,11 +19,25 @@ This shortcut executes “16BMB_PEC.adl” with necessary options and input para
 
 Attached below is a screen shot of the PEC User Interface.
 
+.. figure:: /images/operation/EPICS_user_interface.png
+   :alt: EPICS_user_interface
+   :scale: 60 %
+   :align: center
+
+It interfaces the control widgets with 16BM station shutters, SR status, EPS status, most demanded
+motors for user experiments, intensity monitors with ion chambers and diode, and heater power supply controller and pressure control syringe pump.
+
+
 EDXD and radiography mode switching
 -----------------------------------
 
 Setup of slits and filter for EDXD and radiography measurement, respectively.
 Open ‘Slits/Filter Setup’ on the PEC user interface.
+
+.. figure:: /images/operation/slits_filter_interface.png
+   :alt: slits_filter_interface
+   :scale: 60 %
+   :align: center
 
 Input slit sizes and filter setup values in the ‘Preset Position’ window. Please do not change other parameters (e.g., Tip X, Y, Z, and so on).
 Setup 1 is for EDXD measurement and setup 2 is for radiography measurement. Filter value is typically 0 (no filter) for EDXD measurement and -45 (100 m molybdenum) for radiography measurement. Please close the window after completion.
