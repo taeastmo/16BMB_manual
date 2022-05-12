@@ -253,6 +253,7 @@ Basic pump operation
 Procedure for increasing, maintaining, and decreasing pressure.
 
 Compression:
+
 1. Make sure Mode is selected as “Compress”. (Mode button is hidden while Pressure Control is in “Run” state). Stop the Pressure Control before switching Mode.
 2. Refill pumps A and B (click the button Refill for each pump). Wait until both pumps finish refilling.
 3. Set Max flow for both pumps to 5ml/min.
@@ -263,6 +264,7 @@ Compression:
 8. To reach the next oil pressure setpoint, re-enable pressure control by setting Max flow rates back to 5 ml/min.
 
 Decompression:
+
 1. Set Pressure Control to Stop.
 2. Set Mode to Decompress. (Note: due to problem in the current version of the controller software, sometimes communication with the pump during this step, the indicators colors can change to white. If this happens, please wait around 30 seconds, the communication should get re-established on its own. Afterwards, you may need to toggle back and forth between Compress and Decompress, make sure Decompress in finally selected). 
 3. Set Pressure Control to Run.
