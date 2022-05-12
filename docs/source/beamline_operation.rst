@@ -94,7 +94,7 @@ EDXD data collation and viewing is done using the :ref:`hpMCA <hpMCA>` software:
 2. File -> foreground -> open detector.
 3. Click ‘OK’, keeping the default MCA PV name.
 
-4. Find sample Y, Z, and X positions before starting EDXD data collection (cf. page 20-21).
+4. Find sample :ref:`Y, Z, <yz_position>` and :ref:`X, <x_position>` positions before starting EDXD data collection.
 
 5. Start EDXD data acquisition (Refer to :ref:`hpMCA <hpMCA>` section for EDXD data acquisition and viewing).
 
@@ -120,6 +120,8 @@ The cursor feature is useful for graphical determination of the FWHM and peak ce
    :alt: bluediamond_interface
    :scale: 60 %
    :align: center
+
+.. _yz_position:
 
 Sample Y and/or Z positions search
 ----------------------------------
@@ -160,6 +162,8 @@ There are 2 ways to search sample Y and/or Z positions:
 
 - Click ‘Load&Go’ to start scan.
 - Scan results will appear in ‘Bluediamond’ window.
+
+.. _x_position:
 
 Sample X position scan
 ----------------------
@@ -213,14 +217,14 @@ Adjust the slit sizes and exposure times for each 2-theta
 
 Input parameters:
 
-    1.	2θ = 2theta angle
-    2.	1stV = 1st slit Vertical size
-    3.	1stH = 1st slit Horizontal size
-    4.	2ndV = 2nd slit Vertical size
-    5.	2ndH = 2nd slit Horizontal size
-    6.	Det.V = Detector slit Vertical size
-    7.	Det.H = Detector slit Horizontal size
-    8.	Exp. (s) = Data collection time in ‘Live time’ (i.e. Actual data acquisition time is Live time + Dead time)
+    #.	2θ = 2theta angle
+    #.	1stV = 1st slit Vertical size
+    #.	1stH = 1st slit Horizontal size
+    #.	2ndV = 2nd slit Vertical size
+    #.	2ndH = 2nd slit Horizontal size
+    #.	Det.V = Detector slit Vertical size
+    #.	Det.H = Detector slit Horizontal size
+    #.	Exp. (s) = Data collection time in ‘Live time’ (i.e. Actual data acquisition time is Live time + Dead time)
 
 If you want to repeat measurement, you can set ‘Iterations = 2 or higher.
 
@@ -258,26 +262,43 @@ Syringe pump is controlled through the MEDM interface
 Basic pump operation
 Procedure for increasing, maintaining, and decreasing pressure.
 
-Compression:
+**Compression:**
 
-1. Make sure Mode is selected as “Compress”. (Mode button is hidden while Pressure Control is in “Run” state). Stop the Pressure Control before switching Mode.
-2. Refill pumps A and B (click the button Refill for each pump). Wait until both pumps finish refilling.
+1. Make sure Mode is selected as “Compress”. 
+
+.. note:: Stop the Pressure Control before switching Mode. (Mode button is hidden while Pressure Control is in “Run” state). 
+
+2. Refill pumps A and B (click the button Refill for each pump). 
+
+.. note:: Wait until both pumps finish refilling.
+
 3. Set Max flow for both pumps to 5ml/min.
-4. Set the Oil pressure setpoint to 20 psi.
-5. Set Pressure control to Run. Pump will go through the initial equalization sequence; this will take around 30 seconds to one minute. Pressure may go up to ~80 psi and fluctuate somewhat during this process. Wait until the Actual oil pressure stabilizes at 20 psi.
+#. Set the Oil pressure setpoint to 20 psi.
+#. Set Pressure control to Run. Pump will go through the initial equalization sequence; this will take around 30 seconds to one minute. 
+
+.. note:: Pressure may go up to ~80 psi and fluctuate somewhat during this process. Wait until the Actual oil pressure stabilizes at 20 psi.
+
 6. Increase the Oil pressure setpoint to your required pressure (maximum allowed is 14,000psi). Pump will gradually reach the setpoint pressure and maintain the pressure continuously. 
-7. If you don’t want the pump to maintain the pressure continuously after reaching the setpoint, set the Maximum oil flow-rates for pumps A and B to 0.0001 ml/min. DO NOT switch Pressure Control to Stop. 
+#. If you don’t want the pump to maintain the pressure continuously after reaching the setpoint, set the Maximum oil flow-rates for pumps A and B to 0.0001 ml/min. 
+
+.. important:: DO NOT switch Pressure Control to Stop. 
+
 8. To reach the next oil pressure setpoint, re-enable pressure control by setting Max flow rates back to 5 ml/min.
 
-Decompression:
+**Decompression:**
 
 1. Set Pressure Control to Stop.
-2. Set Mode to Decompress. (Note: due to problem in the current version of the controller software, sometimes communication with the pump during this step, the indicators colors can change to white. If this happens, please wait around 30 seconds, the communication should get re-established on its own. Afterwards, you may need to toggle back and forth between Compress and Decompress, make sure Decompress in finally selected). 
+#. Set Mode to Decompress. 
+
+.. note:: Due to problem in the current version of the controller software, sometimes communication with the pump during this step, the indicators colors can change to white. If this happens, please wait around 30 seconds, the communication should get re-established on its own. Afterwards, you may need to toggle back and forth between Compress and Decompress, make sure Decompress in finally selected. 
+
 3. Set Pressure Control to Run.
-4. Wait around 1 minute before doing anything else. After around 30 seconds, one of the pumps (A or B) will start emptying out. Wait until the level in that pump reaches around 7.5 ml.
-5. Set the setpoint pressure to 20 psi.
-6. After the actual oil pressure is at 20 psi, switch pressure control to Stop.
-7. Open the valves to vent the remaining oil pressure.
+
+.. important:: Wait around 1 minute before doing anything else. After around 30 seconds, one of the pumps (A or B) will start emptying out. Wait until the level in that pump reaches around 7.5 ml.
+
+4. Set the setpoint pressure to 20 psi.
+#. After the actual oil pressure is at 20 psi, switch pressure control to Stop.
+#. Open the valves to vent the remaining oil pressure.
 
 
 Heating
