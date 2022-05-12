@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = '16-BM-B'
+project = '16-BM-B Docs'
 copyright = '2022, R. Hrubiak'
 author = 'R. Hrubiak'
 
