@@ -298,7 +298,10 @@ Procedure for increasing, maintaining, and decreasing pressure.
 
 4. Set the setpoint pressure to 20 psi.
 #. After the actual oil pressure is at 20 psi, switch pressure control to Stop.
-#. Open the valves to vent the remaining oil pressure.
+#. Open the valves to vent the remaining oil pressure.\
+
+    #. Open valve control from PEC interface "Pump control menu"
+    #. 
 
 
 Heating
