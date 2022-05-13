@@ -2,60 +2,128 @@
 
 hpMCA
 =====
-Data acquisition
-----------------
 
-- To start data collection, press ‘Erase’ and then ‘On’ in ‘Acquisition’.
-- To stop data collection and to save, press ‘Off’ in ‘Acquisition’. Then, File -> Save As. Note: Please include a suffix “_000” after the file name to enable automatic file incrementing when using command ‘File -> Save Next’. 
+
+
+GUI basics
+----------
 
 .. figure:: /images/hpmca/start_file_loaded.png
    :alt: start_file_loaded
    :scale: 50 %
    :align: center
 
+Left panel (from top to bottom):
 
-Other features on the window
-----------------------------
-Left column (from top to bottom):
+- :ref:`Acquisition <acquisition>`
+- :ref:`Elapsed time  <elapsed_time>`
+- :ref:`Save data file  <save_data_file>`
+- :ref:`File saving options <file_save_options>`
+- :ref:`Regions of interest <rois>`
+- :ref:`Fluorescence markers <fluorescence>`
+- :ref:`Vertical scale <v_scale>`
+- :ref:`Horizontal scale <h_scale>`
 
-- ROIs (see following pages for the usage).
-- Fluorescence markers=By selecting element, hpMCA shows K and/or L shell emission lines positions.
-- Vertical scaling options
-- Horizontal scale unit option
+The plot area supports the following mouse commands:
 
-Bottom:
-By selecting a position on EDXD data by ‘Cursor’ you can get Energy and Counts information.
+- *Left Click:*
+    Move the vertical line cursor to the current mouse position.   
 
-Cursor: Left click
+- *Left Drag:*
+    Zoom-in to the selected area.
+
+- *Right Click:*
+    Zoom out.
+
+- *Mouse Wheel:*
+    Zoom in and zoom out centered around the current mouse position.
+
+Bottom panel: Energy and Counts information corresponting to location selected by the cursor
+
+Menu bar: 
+
+* File
+   * Open file
+   * Open detector
+   * Overlay
+   * Save as
+   * Export pattern
+   * Environment
+   * Multiple spectra
+
+* Control
+   * Calibrate Energy
+   * Calibrate 2-theta
+   * Set 2-theta
+   * Set wavelength
+   * Presets
+
+* Display
+   * Phase
+   * Fluorescence
+   * Retions of interest
+   * Lattice refinement
+   * Colors options
+   * ROI options
+
+.. _acquisition:
+
+Acquisition
+-----------
+
+- To start data collection, press ‘Erase’ and then ‘On’ in ‘Acquisition’ panel.
+- To stop data collection and to save, press ‘Off’ in ‘Acquisition’.
+
+.. _elapsed_time:
+
+Elapsed time 
+------------
+Elapsed time section
+
+.. _save_data_file:
+
+Save data file
+--------------
+Save data file section
+
+.. _file_save_options:
+
+File saving options
+-------------------
+
+File saving options section
 
 
-Region of Interest (ROI)
-------------------------
-There are two methods to add ROI.
 
-(1)	Manual selection of ROI.
-(2)	Make ROI on all peaks for a crystal by using the JCPDS data.
+.. _rois:
 
-    (1)	Manual selection of ROI
+Regions of Interest (ROI)
+-------------------------
+There are two methods to add an ROI.
 
-        - Select center of region of interest by moving cursor to that position (Left-click with mouse).
-        - Click, ‘Add’ button in ‘ROIs’ panel. The button will now read ‘Set’.
-        - Drag left and right extends of the ROI to appropriate positions.
-        - Then, click ‘Set’ button in ‘ROIs’ panel. The ROI area should now be a different color (default – blue).
-        - Currently selected ROI is indicated by a red cursor above it.
-        - The Centroid of the selected ROI is displayed in top-middle of the plot.
-        - Different ROI can be selected by ‘<’ and ‘>’ buttons in the ROI panel.
-        - More information about the ROIs can be displayed in the ‘ROIs control’ by selecting menu: Display/ROIs.
-        - You can change the name of any ROI by double-clicking and typing a new name in the name column.
-        - Peak fit can be displayed by clicking ‘Show fit’ button in ROIs control window.
+(1)	:ref:`Manual selection of ROI. <manual_roi>`
+(2)	:ref:`Make ROI on all peaks for a crystal by using the JCPDS data. <jcpds_roi>`
 
-    - To erase a ROI, please click ‘Delete’ after selection of the ROI.
-    - To erase all ROIs, please click ‘Clear All’.
+.. _manual_roi: 
 
-    .. figure:: /images/hpmca/hpmca_roi_set.png
-       :alt: hpmca_roi_set
-       :scale: 80 %
-       :align: center
+    (1)	**Manual selection of ROI**
+
+        #. Select center of region of interest by moving cursor to that position (Left-click with mouse).
+        #. Click, ‘Add’ button in ‘ROIs’ panel. The button will now read ‘Set’.
+        #. Drag left and right extends of the ROI to appropriate positions.
+
+        .. figure:: /images/hpmca/roi_set.png
+           :alt: hpmca_roi_set
+           :scale: 45 %
+           :align: center
+           
+        4. Then, click ‘Set’ button in ‘ROIs’ panel. The ROI area should now be a different color (default – blue).
+        #. Currently selected ROI is indicated by a red cursor above it.
+        #. The Centroid of the selected ROI is displayed in top-middle of the plot.
+        #. Different ROI can be selected by ‘<’ and ‘>’ buttons in the ROI panel.
+        #. More information about the ROIs can be displayed in the ‘ROIs control’ by selecting menu: Display/ROIs.
+        #. You can change the name of any ROI by double-clicking and typing a new name in the name column.
+        #. Peak fit can be displayed by clicking ‘Show fit’ button in ROIs control window.
 
     .. figure:: /images/hpmca/rois.png
        :alt: rois
@@ -67,28 +135,53 @@ There are two methods to add ROI.
        :scale: 70 %
        :align: center
 
+.. _jcpds_roi: 
 
+    (2)	**Make ROIs on all peaks for a crystal by using JCPDS phase**
 
-    (2)	Make ROIs on all peaks for a crystal by using JCPDS data
-        - Open ‘Phase control’ window from menu Display -> Phase
+        #. Open ‘Phase control’ window from menu Display -> Phase
         
         .. figure:: /images/hpmca/phase.png
            :alt: phase
            :scale: 80 %
-           :align: center
+           :align: center 
 
-        - Select material by opening a jcpds file.
-        - Check if 2𝜽 angle is correct, adjust if needed.
-        - Lines, which indicate positions of the peaks of the material, appear below EDXD data.
+        2. Select material by opening a jcpds file.
+        #. Check if 2𝜽 angle is correct, adjust if needed.
+        #. Lines, which indicate positions of the peaks of the material, appear below EDXD data.
 
         .. figure:: /images/hpmca/hpmca_phase_lines.png
            :alt: hpmca_phase_lines
            :scale: 80 %
            :align: center
         
-        - The positions of peaks lines can be shifted by changing ‘P (GPa)’, or ‘T (K)’.
+        5. The positions of peaks lines can be shifted by changing ‘P (GPa)’, or ‘T (K)’.
         
-        - Then, click ‘Add ROIS’ in ‘Phase control’ window to add ROIs for all peaks.
+        #. Then, click ‘Add ROIS’ in ‘Phase control’ window to add ROIs for all peaks.
+
+To erase a ROI, please click ‘Delete’ after selection of the ROI.
+To erase all ROIs, please click ‘Clear All’.
+
+.. _fluorescence:
+
+Fluorescence markers
+--------------------  
+
+By typing in an element, hpMCA shows K and/or L shell emission lines positions.
+
+.. _v_scale:
+
+Vertical scale
+-------------------
+
+Vertical scale section
+
+.. _h_scale:
+
+Horizontal scale
+----------------
+
+Horizontal scale section
 
 Energy calibration
 ------------------
