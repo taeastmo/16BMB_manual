@@ -8,9 +8,9 @@ Data acquisition
 - To start data collection, press ‘Erase’ and then ‘On’ in ‘Acquisition’.
 - To stop data collection and to save, press ‘Off’ in ‘Acquisition’. Then, File -> Save As. Note: Please include a suffix “_000” after the file name to enable automatic file incrementing when using command ‘File -> Save Next’. 
 
-.. figure:: /images/hpmca/hpmca_detector_connected.png
-   :alt: hpmca_detector_connected
-   :scale: 70 %
+.. figure:: /images/hpmca/start_file_loaded.png
+   :alt: start_file_loaded
+   :scale: 50 %
    :align: center
 
 
@@ -57,6 +57,11 @@ There are two methods to add ROI.
        :scale: 80 %
        :align: center
 
+    .. figure:: /images/hpmca/rois.png
+       :alt: rois
+       :scale: 80 %
+       :align: center
+
     .. figure:: /images/hpmca/hpmca_roi_control.png
        :alt: hpmca_roi_control
        :scale: 70 %
@@ -67,8 +72,8 @@ There are two methods to add ROI.
     (2)	Make ROIs on all peaks for a crystal by using JCPDS data
         - Open ‘Phase control’ window from menu Display -> Phase
         
-        .. figure:: /images/hpmca/hpmca_phase_control.png
-           :alt: hpmca_phase_control
+        .. figure:: /images/hpmca/phase.png
+           :alt: phase
            :scale: 80 %
            :align: center
 
@@ -78,7 +83,7 @@ There are two methods to add ROI.
 
         .. figure:: /images/hpmca/hpmca_phase_lines.png
            :alt: hpmca_phase_lines
-           :scale: 70 %
+           :scale: 80 %
            :align: center
         
         - The positions of peaks lines can be shifted by changing ‘P (GPa)’, or ‘T (K)’.

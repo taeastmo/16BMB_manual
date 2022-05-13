@@ -27,5 +27,5 @@ Summary of 16BM-B features
 .. csv-table:: Table 1
    :header: "Feature", "Description"
    :widths: 50, 100
-   :file: table1.csv
+   :file: tables/table1.csv
 

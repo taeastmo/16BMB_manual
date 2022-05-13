@@ -88,7 +88,7 @@ EDXD data collation and viewing is done using the :ref:`hpMCA <hpMCA>` software:
 
 .. figure:: /images/hpmca/hpmca_main_screen.png
    :alt: hpmca_main_screen
-   :scale: 80 %
+   :scale: 50 %
    :align: center
 
 2. File -> foreground -> open detector.
@@ -190,63 +190,6 @@ Sample X position can be adjusted by using intensity of sample or diffraction pa
    :scale: 30 %
    :align: center
 
-Liquid/amorphous structure measurement
---------------------------------------
-A python program ‘multiangle.py’ is available for automatic data acquisition of EDXD pattern with varying 2θ angle.
-
-- Open the python program by running ‘multiangle.bat’ from the desktop shortcut.
-
-.. figure:: /images/operation/multiangle_setup.png
-   :alt: multiangle_setup
-   :scale: 80 %
-   :align: center
-
-You have the following 3 options:
-
-1.	Create a new setup automatically by clicking Setup in main window. In the pop-up window enter desired q-range and usable E range, and % overlap for the measurements. The built in algorithm will calculate optimal 2theta angles and populate the main window.
-
-.. figure:: /images/operation/multiangle_automatic.png
-   :alt: multiangle_automatic
-   :scale: 100 %
-   :align: center
-
-2.	Load previously saved setup, click Load in main window
-3.	Add 2-theta angles manually by clicking Add in the main window for each angle.
-
-Adjust the slit sizes and exposure times for each 2-theta 
-
-Input parameters:
-
-    #.	2θ = 2theta angle
-    #.	1stV = 1st slit Vertical size
-    #.	1stH = 1st slit Horizontal size
-    #.	2ndV = 2nd slit Vertical size
-    #.	2ndH = 2nd slit Horizontal size
-    #.	Det.V = Detector slit Vertical size
-    #.	Det.H = Detector slit Horizontal size
-    #.	Exp. (s) = Data collection time in ‘Live time’ (i.e. Actual data acquisition time is Live time + Dead time)
-
-If you want to repeat measurement, you can set ‘Iterations = 2 or higher.
-
-.. important:: Confirm the following: 
-
-   - ‘Camera Vpos’ = 110 ‘Beamstop’ = OUT ‘Tip X’ = 0
-   - ‘Scan1 MCA Trigger Toggle’ = OFF (nothing in line 2) Both ‘Preset Real Time’ and ‘Preset Live Time’ = 0
-   - Slit and Filter setup is ‘EDXD’ condition (‘Filter’ = 0, slit size is small) ‘position of sample is correct’.
-
-Then, please make dummy saved file in hpMCA:
-
-* File -> Save As (please make a dummy file with suffix ‘_000’, file extension will be .hpmca)
-* Open File -> Preferences
-* In preferences, please check ‘yes’ for ‘autosave when acquisition stopped’. (hpMCA will save file for each angle data with the name suffix of ‘_001’, ‘_002’...).
-
-Then, to start multiangle measurement, 
-
-- On Multiangle control window, click Run 
-
-.. Note:: After finishing the Multiangle collection, please do not forget to check ‘no’ for ‘autosave when acquisition stopped’.
-
-If you want to stop the Multiangle measurement, click Stop.
 
 Increase pressure
 -----------------
@@ -298,11 +241,29 @@ Procedure for increasing, maintaining, and decreasing pressure.
 
 4. Set the setpoint pressure to 20 psi.
 #. After the actual oil pressure is at 20 psi, switch pressure control to Stop.
-#. Open the valves to vent the remaining oil pressure.\
+#. Open the valves to vent the remaining oil pressure:
 
-    #. Open valve control from PEC interface "Pump control menu"
-    #. 
+    #. Open valve control from the main PEC interface menu "Pump control menu"
 
+    .. figure:: /images/sp/valve_control_2.png
+       :alt: valve_control
+       :scale: 60 %
+       :align: center
+
+   #. Toggle Valves 1-4 to Low. 
+
+   .. note:: If the readback for a valve is high toggle button for a valve is low, toggle the button to high and then back to low.
+
+   .. note:: If the valve toggle buttons are hidden check the following conditions are met: 
+      
+      * Pressure : <= 20psi
+      * Pressure setpoint: 20psi
+      * Pressure control: stopped
+
+   .. figure:: /images/sp/valve_control_blocked.png
+       :alt: valve_control_blocked
+       :scale: 60 %
+       :align: center
 
 Heating
 -------
@@ -363,10 +324,140 @@ In both cases, after cooling,
 
 After cooling of press body, please remove heating cables.
 
+Liquid/amorphous structure measurement
+--------------------------------------
+A python program ‘multiangle.py’ is available for automatic data acquisition of EDXD pattern with varying 2θ angle.
 
-Data logging
-------------
+- Open the python program by running ‘multiangle.bat’ from the desktop shortcut.
+
+.. figure:: /images/operation/multiangle_setup.png
+   :alt: multiangle_setup
+   :scale: 80 %
+   :align: center
+
+You have the following 3 options:
+
+1.	Create a new setup automatically by clicking Setup in main window. In the pop-up window enter desired q-range and usable E range, and % overlap for the measurements. The built in algorithm will calculate optimal 2theta angles and populate the main window.
+
+.. figure:: /images/operation/multiangle_automatic.png
+   :alt: multiangle_automatic
+   :scale: 100 %
+   :align: center
+
+2.	Load previously saved setup, click Load in main window
+3.	Add 2-theta angles manually by clicking Add in the main window for each angle.
+
+Adjust the slit sizes and exposure times for each 2-theta 
+
+Input parameters:
+
+    #.	2θ = 2theta angle
+    #.	1stV = 1st slit Vertical size
+    #.	1stH = 1st slit Horizontal size
+    #.	2ndV = 2nd slit Vertical size
+    #.	2ndH = 2nd slit Horizontal size
+    #.	Det.V = Detector slit Vertical size
+    #.	Det.H = Detector slit Horizontal size
+    #.	Exp. (s) = Data collection time in ‘Live time’ (i.e. Actual data acquisition time is Live time + Dead time)
+
+If you want to repeat measurement, you can set ‘Iterations = 2 or higher.
+
+.. important:: Confirm the following: 
+
+   - ‘Camera Vpos’ = 110 ‘Beamstop’ = OUT ‘Tip X’ = 0
+   - ‘Scan1 MCA Trigger Toggle’ = OFF (nothing in line 2) Both ‘Preset Real Time’ and ‘Preset Live Time’ = 0
+   - Slit and Filter setup is ‘EDXD’ condition (‘Filter’ = 0, slit size is small) ‘position of sample is correct’.
+
+Then, please make dummy saved file in hpMCA:
+
+* File -> Save As (please make a dummy file with suffix ‘_000’, file extension will be .hpmca)
+* Open File -> Preferences
+* In preferences, please check ‘yes’ for ‘autosave when acquisition stopped’. (hpMCA will save file for each angle data with the name suffix of ‘_001’, ‘_002’...).
+
+Then, to start multiangle measurement, 
+
+- On Multiangle control window, click Run 
+
+.. Note:: After finishing the Multiangle collection, please do not forget to check ‘no’ for ‘autosave when acquisition stopped’.
+
+If you want to stop the Multiangle measurement, click Stop.
+
+Ultrasound measurement
+----------------------
+
+A GUI porgram sonicPy is used for the ultrasound measurement. SonicPy allows to automatically record ultrasound ultrasound waveforms from the oscilloscope with varying exitation wave frequencies.
+
+Before beginning, create a folder named **US** in your data folder where the ultrasound data will be saved to. 
+
+1. Open sonicPy by running the **ultrasound measurement** shortcut of the desktop. 
+
+   .. figure:: /images/us_measurement/start_screen.png
+      :alt: ultrasound_measurement_start_screen
+      :scale: 45 %
+      :align: center
+
+   .. important:: Check that the Scope-Instrument is DPO5104 and AFG-Instrument is AFG3251. If something else is displayed it means that the program could communicate with the hardware. Check that the oscilloscope and the function generator are both powered on.
+
+2. Check and update if needed the following settings values:
+   
+   .. csv-table:: Scope settings
+      :header: "Settings", "Value"
+      :widths: 50, 100
+      :file: tables/table2_scope_settings.csv
+
+   .. csv-table:: AFG settings
+      :header: "Settings", "Value"
+      :widths: 50, 100
+      :file: tables/table4_afg_settings.csv
+
+   .. csv-table:: Scan settings
+      :header: "Settings", "Value"
+      :widths: 50, 100
+      :file: tables/table3_us_scan_settings.csv
+
+   .. csv-table:: Save data settings
+      :header: "Settings", "Value"
+      :widths: 50, 100
+      :file: tables/table5_us_save_data_settings.csv
+
+3. To check the ultrasound signal level, clear the scope and acquire a new ultrasound waveform by clicking **Erase + ON** above the waveform plot.
+
+   .. figure:: /images/us_measurement/waveform_acquired.png
+      :alt: waveform_acquired
+      :scale: 45 %
+      :align: center   
+
+
+   .. note:: Scope Vertical scale may need to be adjusted depending on the signal level to avoid saturation and to optimize the oscilloscope's dynamic range relative to the signal level.
+
+
+4. Click Go in the Scan panel. The the frequency sweep will start and conclude on its own. To interrupt the scan mid-way click Go again. 
+
+   .. important:: Remember to reset Next file # back to 0 after each scan.
+
+
+   
+
+General data logging
+--------------------
 
 Program **Log book** saves compression and heating records with time. Log book allows recording any process variable (PV)
 
 - Open ‘Log book’ from desktop shortcut.
+
+.. figure:: /images/logbook/start_screen.png
+   :alt: log_book_start_screen
+   :scale: 80 %
+   :align: center
+
+Hutch webcam
+------------
+
+16-BM-B hutch is equiped with an overview camera with motion and zoom capabilities. To open the camera veiwer click the shortcut **WV-S6130 Network Camera** on the desktop. 
+
+.. figure:: /images/webcam/cam_view.png
+   :alt: cam_view
+   :scale: 40 %
+   :align: center
+
+Moving (re-centering the image) of the camera is possible by clicking on the cam view image, the clicked point will become the new center. Zooming-in is possible by drawing a rectangle over the region of interest in the cam view.
