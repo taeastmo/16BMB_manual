@@ -396,7 +396,7 @@ Before beginning, create a folder named **US** in your data folder where the ult
       :scale: 45 %
       :align: center
 
-   .. important:: Check that the Scope-Instrument is DPO5104 and AFG-Instrument is AFG3251. If something else is displayed it means that the program could communicate with the hardware. Check that the oscilloscope and the function generator are both powered on.
+   .. important:: Check that the Scope-Instrument is DPO5104 and AFG-Instrument is AFG3251. If something else is displayed it means that the program could not communicate with the hardware. Check that the oscilloscope and the function generator are both powered on.
 
 2. Check and update if needed the following settings values:
    
