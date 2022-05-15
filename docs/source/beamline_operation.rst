@@ -241,8 +241,7 @@ Procedure for increasing, maintaining, and decreasing pressure.
 **Decompression:**
 
    1. Set Pressure Control to Stop.
-   #. Set Mode to Decompress. 
-
+   2. Set Mode to Decompress. 
    3. Set Pressure Control to Run.
 
    .. important:: Wait around 1 minute before doing anything else. 
