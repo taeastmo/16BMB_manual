@@ -11,7 +11,7 @@ Before beginning, create a folder named **US** in your data folder where the ult
 
    .. figure:: /images/us_measurement/start_screen.png
       :alt: ultrasound_measurement_start_screen
-      :scale: 45 %
+      :width: 720px
       :align: center
 
    .. important:: Check that the Scope-Instrument is DPO5104 and AFG-Instrument is AFG3251. If something else is displayed it means that the program could not communicate with the hardware. Check that the oscilloscope and the function generator are both powered on.
@@ -42,7 +42,7 @@ Before beginning, create a folder named **US** in your data folder where the ult
 
    .. figure:: /images/us_measurement/waveform_acquired.png
       :alt: waveform_acquired
-      :scale: 45 %
+      :width: 720px
       :align: center   
 
 

@@ -17,7 +17,8 @@ Procedure for increasing, maintaining, and decreasing pressure.
    If this happens, please wait around 1-2 minutes, the communication should get re-established on its own. 
    Afterwards, you may need to re-do the last command. 
 
-**Compression:**
+Compression
+^^^^^^^^^^^
 
    1. Make sure Mode is selected as “Compress”. 
 
@@ -41,7 +42,8 @@ Procedure for increasing, maintaining, and decreasing pressure.
 
    8. To reach the next oil pressure setpoint, re-enable pressure control by setting Max flow rates back to 5 ml/min.
 
-**Decompression:**
+Decompression
+^^^^^^^^^^^^^
 
    1. Set Pressure Control to Stop.
    2. Set Mode to Decompress. 
@@ -59,7 +61,7 @@ Procedure for increasing, maintaining, and decreasing pressure.
 
       .. figure:: /images/sp/valve_control_2.png
          :alt: valve_control
-         :scale: 60 %
+         :width: 300px
          :align: center
 
       2. Toggle Valves 1-4 to Low. 
@@ -74,5 +76,14 @@ Procedure for increasing, maintaining, and decreasing pressure.
 
    .. figure:: /images/sp/valve_control_blocked.png
        :alt: valve_control_blocked
-       :scale: 60 %
+       :width: 300px
        :align: center
+
+
+PE Press Live valve
+^^^^^^^^^^^^^^^^^^^
+
+The Live valve is and electronically actuated valve in-line between the Syringe pump and the PE press. 
+The Line valve allows to keep the pressure in the PE press isolated from the Syringe pump when changing modes 
+(Compression <-> Decompression), when heating, or when leaviing the PE press unattended for an extended perions of time.
+This subseciton describes the operation of the Line valve.

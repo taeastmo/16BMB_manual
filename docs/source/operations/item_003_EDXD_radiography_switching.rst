@@ -6,7 +6,7 @@ Open 'Slits/Filter Setup' on the PEC user interface.
 
 .. figure:: /images/operation/slits_filter_interface.png
    :alt: slits_filter_interface
-   :scale: 60 %
+   :width: 500px
    :align: center
 
 Input slit sizes and filter setup values in the 'Preset Position' window. 
@@ -20,5 +20,5 @@ Setup 1 is for EDXD measurement and setup 2 is for radiography measurement. Filt
 
 .. figure:: /images/operation/slit_mode_switch_interface.png
    :alt: slit_mode_switch_interface
-   :scale: 30 %
+   :width: 720px
    :align: center

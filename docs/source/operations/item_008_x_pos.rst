@@ -17,10 +17,10 @@ Sample X position can be adjusted by using intensity of sample or diffraction pa
 
 .. figure:: /images/operation/mgo_scan.png
    :alt: mgo_scan
-   :scale: 80 %
+   :width: 350px
    :align: center
 
 .. figure:: /images/operation/scan_trigger.png
    :alt: scan_trigger
-   :scale: 30 %
+   :width: 720px
    :align: center

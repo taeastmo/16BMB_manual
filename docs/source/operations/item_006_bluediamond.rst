@@ -19,5 +19,5 @@ The cursor feature is useful for graphical determination of the FWHM and peak ce
 
 .. figure:: /images/operation/bluediamond_interface.png
    :alt: bluediamond_interface
-   :scale: 60 %
+   :width: 640px
    :align: center 

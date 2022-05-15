@@ -16,7 +16,7 @@ EDXD data collation and viewing is done using the :ref:`hpMCA <hpMCA>` software:
 
 .. figure:: /images/hpmca/hpmca_main_screen.png
    :alt: hpmca_main_screen
-   :scale: 50 %
+   :width: 720px
    :align: center
 
 2. File -> foreground -> open detector.

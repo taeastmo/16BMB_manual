@@ -5,7 +5,7 @@ Before connection of cable, please confirm 'Power Output' in 'PEC User Interface
 
 .. figure:: /images/operation/heating_power_on.png
    :alt: heating_power_on
-   :scale: 30 %
+   :width: 600px
    :align: center
 
 In hutch, please confirm 'Heater Output Control Switch' is 'Disabled'.
@@ -14,7 +14,7 @@ In hutch, please confirm 'Heater Output Control Switch' is 'Disabled'.
 
    .. figure:: /images/operation/heating_cable_connections.png
       :alt: heating_cable_connections
-      :scale: 40 %
+      :width: 600px
       :align: center
 
    2. Turn On a fun on PE press for cooling of press body.
