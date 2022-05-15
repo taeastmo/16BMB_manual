@@ -8,11 +8,13 @@
    :width: 720px
    :align: center
 
+
 .. toctree::
    :maxdepth: 2
    :caption: User guide:
    
    beamline_description
+   sample_preparation
    beamline_operation
    beamline_troubleshooting
    beamline_support

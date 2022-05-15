@@ -11,7 +11,7 @@ With the APS bending magnet white x-rays (5-120 keV), multi-angle energy dispers
 Summary of 16BM-B features
 --------------------------
 
-.. csv-table:: Table 1
+.. csv-table:: 16BM-B features
    :header: "Feature", "Description"
    :widths: 50, 100
    :file: tables/table1.csv
