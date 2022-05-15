@@ -112,7 +112,7 @@ There are two methods to add an ROI.
         #. Click, ‘Add’ button in ‘ROIs’ panel. The button will now read ‘Set’.
         #. Drag left and right extends of the ROI to appropriate positions.
 
-        .. figure:: /images/hpmca/roi_set.png
+        .. figure:: /images/hpmca/roi_set.png 
            :alt: hpmca_roi_set
            :scale: 45 %
            :align: center
