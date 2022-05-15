@@ -3,9 +3,9 @@
 16-BM-B PE Press Experiments User Manual
 ========================================
 
-.. figure:: /images/beamline_16bmb.png
+.. figure:: /images/beamline_16bmb.jpg
    :alt: 16-BM-B
-   :scale: 40 %
+   :width: 720px
    :align: center
 
 .. toctree::
