@@ -207,7 +207,7 @@ The following is the procedure for 2\ :math:`{\theta}` angle calibration:
 - Collect Au EDXD pattern.
 - :ref:`Make ROIs <jcpds_roi>` for all Au peaks using JCPDS data at 0 GPa.
 - Select \ :menuselection:`Control --> Calibrate 2theta…` on Menu bar.
-- Please remove weak or overlapping peaks by selecting 'No' in the second column 'Use?'.
+- Please remove weak or overlapping peaks by unchecking them in the column 'Use?'.
 
 .. Note:: Because the MCA does not have background subtraction feature, background slope at low energy (<~25 keV) probably due to absorption influences on determining peak position. It is better not to use low energy data for 2\ :math:`{\theta}` angle calibration. Typically, at 2\ :math:`{\theta}` of ~15 °, the first and second peaks show marked deviation from other peaks.
 
@@ -219,7 +219,7 @@ The following is the procedure for 2\ :math:`{\theta}` angle calibration:
 
 .. figure:: /images/hpmca/hpmca_2theta_calibration.png
    :alt: hpmca_2theta_calibration
-   :width: 500px
+   :width: 550px
    :align: center
 
 .. note:: The 2\ :math:`{\theta}` calibration result is also saved in the header of the data file.
