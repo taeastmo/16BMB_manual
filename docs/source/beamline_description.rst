@@ -20,7 +20,7 @@ falling sphere viscosity measurement.
 Summary of 16-BM-B features
 ---------------------------
 
-.. csv-table:: 16BM-B features
+.. csv-table:: 16-BM-B features
    :header: "Feature", "Description"
    :widths: 50, 100
    :file: tables/table1.csv
