@@ -114,7 +114,7 @@ There are two methods to add an ROI.
 
         .. figure:: /images/hpmca/roi_set.png 
            :alt: hpmca_roi_set
-           :scale: 45 %
+           :width: 600px
            :align: center
            
         4. Then, click :guilabel:`&Set` button in 'ROIs' panel. The ROI area should now be a different color (default – blue).
@@ -127,12 +127,12 @@ There are two methods to add an ROI.
 
     .. figure:: /images/hpmca/rois.png
        :alt: rois
-       :scale: 80 %
+       :width: 500px
        :align: center
 
     .. figure:: /images/hpmca/hpmca_roi_control.png
        :alt: hpmca_roi_control
-       :scale: 70 %
+       :width: 300px
        :align: center
 
 .. _jcpds_roi: 
@@ -143,7 +143,7 @@ There are two methods to add an ROI.
         
         .. figure:: /images/hpmca/phase.png
            :alt: phase
-           :scale: 80 %
+           :width: 500px
            :align: center 
 
         2. Select material by opening a jcpds file.
@@ -152,7 +152,7 @@ There are two methods to add an ROI.
 
         .. figure:: /images/hpmca/hpmca_phase_lines.png
            :alt: hpmca_phase_lines
-           :scale: 80 %
+           :width: 500px
            :align: center
         
         5. The positions of peaks lines can be shifted by changing 'P (GPa)', or 'T (K)'.
@@ -194,7 +194,7 @@ be found in the header of the EDXD data file.
 
 .. figure:: /images/hpmca/hpmca_file_header.png
    :alt: hpmca_file_header
-   :scale: 70 %
+   :width: 500px
    :align: center
 
 2\ :math:`{\theta}` angle calibration

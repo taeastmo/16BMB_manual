@@ -18,8 +18,8 @@ You have the following 3 options:
       :width: 320px
       :align: center
 
-   2.	Load previously saved setup, click Load in main window
-   3.	Add 2-theta angles manually by clicking Add in the main window for each angle.
+   2.	Load previously saved setup, click :guilabel:`Load` in main window
+   3.	Add 2-theta angles manually by clicking :guilabel:`Add` in the main window for each angle.
 
 Adjust the slit sizes and exposure times for each 2-theta 
 
@@ -40,14 +40,14 @@ If you want to repeat measurement, you can set 'Iterations' = 2 or higher.
 Then, in :ref:`hpMCA`:
 
    #. Make sure file number is set to auto-increment
-   #. Open File -> Preferences
+   #. Open \ :menuselection:`File --> Preferences`
    #. In preferences, please check 'yes' for 'autosave when acquisition stopped'. 
       (hpMCA will save file for each angle data with the name suffix of '_001', '_002'...).
 
 Then, to start multiangle measurement, 
 
-   - On Multiangle control window, click Run 
+   - On Multiangle control window, click :guilabel:`Run` 
 
 .. important:: After finishing the Multiangle collection, please do not forget to check 'no' for 'autosave when acquisition stopped'.
 
-If you want to stop the Multiangle measurement, click Stop.
+If you want to stop the Multiangle measurement, click :guilabel:`Stop`.

@@ -29,7 +29,7 @@ On 'PEC User Interface',
    1.	At first, please confirm 'Voltage' 'Set Point (V)'=0, 'Setpoint (Watt) on PID control = 0, and 'Over Protection' is ON.
    2.	'Power Output' ON
    3.	Input 200 in 'Limit' under 'Current'. Please input again even if the value is 200.
-   4.	Click 'Clear fault'.
+   4.	Click :guilabel:`Clear fault`.
    5.	'PID ON/OFF' ON
    6.	Tweak 'Setpoint (Watt)' by 1 W to 3 W.
    7.	Check 'Readback (Watt)' is responding, and 'Resistance' is lower than 0.1 (typically, ~0.04-0.05 at ~1 W).

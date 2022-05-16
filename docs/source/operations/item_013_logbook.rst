@@ -15,19 +15,19 @@ and/or radiography files are saved.
       :width: 550px
       :align: center
 
-2. File -> New log
+2. \ :menuselection:`File --> New log`
 
    .. figure:: /images/logbook/new.png
       :alt: log_book_new
       :width: 400px
       :align: center
 
-3. Next to 'Log file', click 'Browse...' and choose the name for the log file, 
+3. Next to 'Log file', click :guilabel:`Browse...` and choose the name for the log file, 
    typically a new file in your own experiment data folder.
 
 Logging can occur either automatically or manually. The program will automatically 
 log a list of process variables (PV's) and data file names each time a new data file is saved (EDXD, or radiography). 
-Alternatively, click 'Record' at any time to log the then-current experimental parameters.
+Alternatively, click :guilabel:`Record` at any time to log the then-current experimental parameters.
 A time-stamped row of values will be appended to the log file each time.
 
 **LogBook** allows recording any process variable (PV); however 
@@ -45,5 +45,5 @@ The following default PV's will be logged:
 
 .. figure:: /images/logbook/record.png
    :alt: log_book_new
-   :width: 400px
+   :width: 500px
    :align: center

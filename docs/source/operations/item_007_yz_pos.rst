@@ -15,7 +15,7 @@ By radiography image
    - Switch to :ref:`radiography measurement mode <radiography_mode>`.
    - Narrow slit size to those of EDXD measurement.
    - Mark the narrow slit size and position by tape or something on monitor.
-   - Open slit (click 'for Camera') for radiography measurement.
+   - Open slit (click :guilabel:`for Camera`) for radiography measurement.
    - Move sample position to x-ray beam position shown by a mark on monitor.
 
 
@@ -40,5 +40,5 @@ By absorption scan
       :width: 300px
       :align: center
 
-   - Click 'Load&Go' to start scan.
+   - Click :guilabel:`Load&Go` to start scan.
    - Scan results will appear in the ':ref:`Bluediamond <bluediamond>`' window.

@@ -38,7 +38,7 @@ Before beginning, create a folder named **US** in your data folder where the ult
       :widths: 50, 100
       :file: tables/table5_us_save_data_settings.csv
 
-3. To check the ultrasound signal level, clear the scope and acquire a new ultrasound waveform by clicking **Erase + ON** above the waveform plot.
+3. To check the ultrasound signal level, clear the scope and acquire a new ultrasound waveform by clicking :guilabel:`Erase + ON` above the waveform plot.
 
    .. figure:: /images/us_measurement/waveform_acquired.png
       :alt: waveform_acquired
@@ -49,7 +49,7 @@ Before beginning, create a folder named **US** in your data folder where the ult
    .. note:: Scope Vertical scale may need to be adjusted depending on the signal level to avoid saturation and to optimize the oscilloscope's dynamic range relative to the signal level.
 
 
-4. Set the 'Next file #' zero, if needed; and click Go in the Scan panel. The the frequency sweep will start and conclude on its own. To interrupt the scan mid-way click Go again. 
+4. Set the 'Next file #' zero, if needed; and click :guilabel:`Go` in the Scan panel. The the frequency sweep will start and conclude on its own. To interrupt the scan mid-way click :guilabel:`Go` again. 
 
    .. important:: Remember to reset Next file # back to 0 before each scan.
 

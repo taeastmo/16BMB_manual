@@ -24,7 +24,7 @@ Compression
 
    .. note:: Stop the Pressure Control before switching Mode. (Mode button is hidden while Pressure Control is in “Run” state). 
 
-   2. Refill pumps A and B (click the button Refill for each pump). 
+   2. Refill pumps A and B (click the button :guilabel:`Refill` for each pump). 
 
    .. note:: Wait until both pumps finish refilling.
 
@@ -66,7 +66,7 @@ Decompression
 
       2. Toggle Valves 1-4 to Low. 
 
-      .. note:: If the readback text for a valve is high (red), and pressed button is low -> click the high button and then the low button.
+      .. note:: If the readback text for a valve is high (red), and pressed button is low: click the :guilabel:`high` button and then the :guilabel:`low` button.
 
       .. note:: If the valve 1-4 buttons are hidden check the following conditions are met: 
          
