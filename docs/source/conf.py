@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = '16-BM-B Docs'
-copyright = '2022, R. Hrubiak'
+copyright = '2022, Argonne National Laboratory'
 author = 'R. Hrubiak'
 
 # The full version, including alpha/beta/rc tags
