@@ -10,7 +10,7 @@ GUI basics
 
 .. figure:: /images/hpmca/start_file_loaded.png
    :alt: start_file_loaded
-   :scale: 50 %
+   :width: 720px
    :align: center
 
 Left panel (from top to bottom):
@@ -71,8 +71,8 @@ Menu bar:
 Acquisition
 -----------
 
-- To start data collection, press ‘Erase’ and then ‘On’ in ‘Acquisition’ panel.
-- To stop data collection and to save, press ‘Off’ in ‘Acquisition’.
+- To start data collection, press :guilabel:`&Erase` and then :guilabel:`&On` in 'Acquisition' panel.
+- To stop data collection and to save, press :guilabel:`&Off`.
 
 .. _elapsed_time:
 
@@ -109,7 +109,7 @@ There are two methods to add an ROI.
     (1)	**Manual selection of ROI**
 
         #. Select center of region of interest by moving cursor to that position (Left-click with mouse).
-        #. Click, ‘Add’ button in ‘ROIs’ panel. The button will now read ‘Set’.
+        #. Click, :guilabel:`&Add` button in 'ROIs' panel. The button will now read 'Set'.
         #. Drag left and right extends of the ROI to appropriate positions.
 
         .. figure:: /images/hpmca/roi_set.png 
@@ -117,13 +117,13 @@ There are two methods to add an ROI.
            :scale: 45 %
            :align: center
            
-        4. Then, click ‘Set’ button in ‘ROIs’ panel. The ROI area should now be a different color (default – blue).
+        4. Then, click :guilabel:`&Set` button in 'ROIs' panel. The ROI area should now be a different color (default – blue).
         #. Currently selected ROI is indicated by a red cursor above it.
         #. The Centroid of the selected ROI is displayed in top-middle of the plot.
-        #. Different ROI can be selected by ‘<’ and ‘>’ buttons in the ROI panel.
-        #. More information about the ROIs can be displayed in the ‘ROIs control’ by selecting menu: Display/ROIs.
+        #. Different ROI can be selected by :guilabel:`&<` and :guilabel:`&>` buttons in the ROI panel.
+        #. More information about the ROIs can be displayed in the 'ROIs control' by selecting menu: Display/ROIs.
         #. You can change the name of any ROI by double-clicking and typing a new name in the name column.
-        #. Peak fit can be displayed by clicking ‘Show fit’ button in ROIs control window.
+        #. Peak fit can be displayed by clicking 'Show fit' button in ROIs control window.
 
     .. figure:: /images/hpmca/rois.png
        :alt: rois
@@ -139,7 +139,7 @@ There are two methods to add an ROI.
 
     (2)	**Make ROIs on all peaks for a crystal by using JCPDS phase**
 
-        #. Open ‘Phase control’ window from menu Display -> Phase
+        #. Open 'Phase control' window from menu \ :menuselection:`Display --> Phase`
         
         .. figure:: /images/hpmca/phase.png
            :alt: phase
@@ -155,12 +155,12 @@ There are two methods to add an ROI.
            :scale: 80 %
            :align: center
         
-        5. The positions of peaks lines can be shifted by changing ‘P (GPa)’, or ‘T (K)’.
+        5. The positions of peaks lines can be shifted by changing 'P (GPa)', or 'T (K)'.
         
-        #. Then, click ‘Add ROIS’ in ‘Phase control’ window to add ROIs for all peaks.
+        #. Then, click :guilabel:`&Add ROIS` in 'Phase control' window to add ROIs for all peaks.
 
-To erase a ROI, please click ‘Delete’ after selection of the ROI.
-To erase all ROIs, please click ‘Clear All’.
+To erase a ROI, please click :guilabel:`Delete` after selection of the ROI.
+To erase all ROIs, please click :guilabel:`Clear All`.
 
 .. _fluorescence:
 
@@ -185,7 +185,12 @@ Horizontal scale section
 
 Energy calibration
 ------------------
-Beamline scientist does energy calibration of the germanium solid state detector by using Fluorescence lines of silver at 22.104 keV (K𝜶) and 24.942 keV (K𝜶1), and gammas from 109Cd (88.04 keV) and 57Co (122.10  keV) at the beginning of each beamtime cycle.  Parameters of energy calibration (Energy=CAL_OFFSET+CAL_Slope×Channel) can be found in the header of the EDXD data file.
+
+Beamline scientist does energy calibration of the germanium solid state detector 
+by using Fluorescence lines of silver at 22.104 keV (K\ :math:`{\alpha}`) and 
+24.942 keV (K\ :math:`{\alpha}`:sub:`1`), and gammas from 109Cd (88.04 keV) and 57Co (122.10  keV) 
+at the beginning of each beamtime cycle.  Parameters of energy calibration (Energy = CAL_OFFSET + CAL_Slope x Channel) can 
+be found in the header of the EDXD data file.
 
 .. figure:: /images/hpmca/hpmca_file_header.png
    :alt: hpmca_file_header
@@ -194,24 +199,27 @@ Beamline scientist does energy calibration of the germanium solid state detector
 
 2\ :math:`{\theta}` angle calibration
 -------------------------------------
-Beamline scientist does 2\ :math:`{\theta}` angle calibration at 7°, 15°, 23°, and 31° using unit-cell volume of Au, and make linear equation to calculate 2\ :math:`{\theta}` angle.
+Beamline scientist does 2\ :math:`{\theta}` angle calibration at 7°, 15°, 23°, and 31° 
+using unit-cell volume of Au, and make linear equation to calculate 2\ :math:`{\theta}` angle.
 
 The following is the procedure for 2\ :math:`{\theta}` angle calibration:
 
 - Collect Au EDXD pattern.
-- Make ROIs for all Au peaks using JCPDS data at 0 GPa (cf. page 14).
-- Select Control -> Calibrate 2theta… on Menu bar.
-- Please remove weak or overlapping peaks by selecting ‘No’ in the second column ‘Use?’.
+- :ref:`Make ROIs <jcpds_roi>` for all Au peaks using JCPDS data at 0 GPa.
+- Select \ :menuselection:`Control --> Calibrate 2theta…` on Menu bar.
+- Please remove weak or overlapping peaks by selecting 'No' in the second column 'Use?'.
 
 .. Note:: Because the MCA does not have background subtraction feature, background slope at low energy (<~25 keV) probably due to absorption influences on determining peak position. It is better not to use low energy data for 2\ :math:`{\theta}` angle calibration. Typically, at 2\ :math:`{\theta}` of ~15 °, the first and second peaks show marked deviation from other peaks.
 
-- Click ‘Compute 2\ :math:`{\theta}`’.
-- 2\ :math:`{\theta}` value appears in the ‘2\ :math:`{\theta}`’ box.
-- Then, please click OK to apply the 2\ :math:`{\theta}` calibration.
+
+
+- Click :guilabel:`Compute 2-theta`.
+- 2\ :math:`{\theta}` value appears in the '2\ :math:`{\theta}`' box.
+- Then, please click :guilabel:`OK` to apply the 2\ :math:`{\theta}` calibration.
 
 .. figure:: /images/hpmca/hpmca_2theta_calibration.png
    :alt: hpmca_2theta_calibration
-   :scale: 70 %
+   :width: 500px
    :align: center
 
 .. note:: The 2\ :math:`{\theta}` calibration result is also saved in the header of the data file.
