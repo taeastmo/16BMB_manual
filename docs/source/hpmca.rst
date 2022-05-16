@@ -147,7 +147,7 @@ There are two methods to add an ROI.
            :align: center 
 
         2. Select material by opening a jcpds file.
-        #. Check if 2𝜽 angle is correct, adjust if needed.
+        #. Check if 2\ :math:`{\theta}` angle is correct, adjust if needed.
         #. Lines, which indicate positions of the peaks of the material, appear below EDXD data.
 
         .. figure:: /images/hpmca/hpmca_phase_lines.png
@@ -192,27 +192,27 @@ Beamline scientist does energy calibration of the germanium solid state detector
    :scale: 70 %
    :align: center
 
-2𝜽 angle calibration
---------------------
-Beamline scientist does 2𝜽 angle calibration at 7°, 15°, 23°, and 31° using unit-cell volume of Au, and make linear equation to calculate 2𝜽 angle.
+2\ :math:`{\theta}` angle calibration
+-------------------------------------
+Beamline scientist does 2\ :math:`{\theta}` angle calibration at 7°, 15°, 23°, and 31° using unit-cell volume of Au, and make linear equation to calculate 2\ :math:`{\theta}` angle.
 
-The following is the procedure for 2𝜽 angle calibration:
+The following is the procedure for 2\ :math:`{\theta}` angle calibration:
 
 - Collect Au EDXD pattern.
 - Make ROIs for all Au peaks using JCPDS data at 0 GPa (cf. page 14).
 - Select Control -> Calibrate 2theta… on Menu bar.
 - Please remove weak or overlapping peaks by selecting ‘No’ in the second column ‘Use?’.
 
-.. Note:: Because the MCA does not have background subtraction feature, background slope at low energy (<~25 keV) probably due to absorption influences on determining peak position. It is better not to use low energy data for 2𝜽 angle calibration. Typically, at 2𝜽 of ~15 °, the first and second peaks show marked deviation from other peaks.
+.. Note:: Because the MCA does not have background subtraction feature, background slope at low energy (<~25 keV) probably due to absorption influences on determining peak position. It is better not to use low energy data for 2\ :math:`{\theta}` angle calibration. Typically, at 2\ :math:`{\theta}` of ~15 °, the first and second peaks show marked deviation from other peaks.
 
-- Click ‘Compute 2𝜽’.
-- 2𝜽 value appears in the ‘2𝜽’ box.
-- Then, please click OK to apply the 2𝜽 calibration.
+- Click ‘Compute 2\ :math:`{\theta}`’.
+- 2\ :math:`{\theta}` value appears in the ‘2\ :math:`{\theta}`’ box.
+- Then, please click OK to apply the 2\ :math:`{\theta}` calibration.
 
 .. figure:: /images/hpmca/hpmca_2theta_calibration.png
    :alt: hpmca_2theta_calibration
    :scale: 70 %
    :align: center
 
-.. note:: The 2𝜽 calibration result is also saved in the header of the data file.
+.. note:: The 2\ :math:`{\theta}` calibration result is also saved in the header of the data file.
 
