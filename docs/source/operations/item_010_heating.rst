@@ -54,7 +54,7 @@ In both cases, after cooling,
 
    #. 'Disable' on the 'Heater Output Control Switch' in the hutch.
 
-   .. danger:: Do not touch on press at least until turning off the power of heater power supply. 
+   .. danger:: Do not touch on press until turning off the power of heater power supply. 
       Even after the power off, please take care. 
       If you heated more than 1000 °C for more than several hours, press body may be hot. 
       Please wait until the press body is cool.
