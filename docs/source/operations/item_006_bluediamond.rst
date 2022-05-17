@@ -5,10 +5,10 @@ Bluediamond
 -----------
 The Java-based HPCAT Bluediamond software is a real-time scan viewer program. The user 
 shortcut can be found on the Windows desktop. If the software is started fresh, 
-go to \ :menuselection:`Configuration --> open` to open the input configuration file named “16BMB.txt” 
-in the “C:\\HPCAT Software” directory.  Note that this directory is local, but can 
+go to \ :menuselection:`Configuration --> open` to open the input configuration file named :file:`16BMB.txt` 
+in the :file:`C:\\HPCAT Software` directory.  Note that this directory is local, but can 
 be any directory in the network.  The software is straightforward to use and most 
-of the menu items are self- instructing.
+of the menu items are self-instructing.
 
 Various detectors can be displayed in the scan:
 

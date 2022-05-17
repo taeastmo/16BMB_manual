@@ -3,7 +3,7 @@ Start EPICS user interface
 
 On the Windows desktop of both computers, users will find a shortcut named “16BMB-PEC Interface”.
 
-This shortcut executes “16BMB_PEC.adl” with necessary options and input parameters. 
+This shortcut executes  :file:`16BMB_PEC.adl` with necessary options and input parameters. 
 
 
 Attached below is a screen shot of the PEC User Interface.

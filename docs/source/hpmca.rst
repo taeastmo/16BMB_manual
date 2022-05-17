@@ -86,6 +86,8 @@ Save data file
 --------------
 Save data file section
 
+Data files are saved with a ``*.hpmca`` extension.
+
 .. _file_save_options:
 
 File saving options
@@ -189,7 +191,7 @@ Energy calibration
 Beamline scientist does energy calibration of the germanium solid state detector 
 by using Fluorescence lines of silver at 22.104 keV (K\ :math:`{\alpha}`) and 
 24.942 keV (K\ :math:`{\alpha}`:sub:`1`), and gammas from 109Cd (88.04 keV) and 57Co (122.10  keV) 
-at the beginning of each beamtime cycle.  Parameters of energy calibration (Energy = CAL_OFFSET + CAL_Slope x Channel) can 
+at the beginning of each beamtime cycle.  Parameters of energy calibration (\ :math:`Energy = CAL\_OFFSET + CAL\_SLOPE \cdot Channel`) can 
 be found in the header of the EDXD data file.
 
 .. figure:: /images/hpmca/hpmca_file_header.png
