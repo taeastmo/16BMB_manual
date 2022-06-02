@@ -3,7 +3,7 @@
 Beamline support
 ================
 
-Support section
+Support section 
 
 Beamline scientists contacts
 ----------------------------

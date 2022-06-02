@@ -18,6 +18,7 @@
    beamline_operation
    beamline_troubleshooting
    beamline_support
+   staff
 
 .. toctree::
    :maxdepth: 2

@@ -14,7 +14,7 @@ Types of cells
 .. toctree::
    :glob:
    :maxdepth: 1
-
+ 
    cells/item*
 
 Capsule materials

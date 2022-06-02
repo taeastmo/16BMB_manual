@@ -75,7 +75,7 @@ Acquisition
 - To stop data collection and to save, press :guilabel:`&Off`.
 
 .. _elapsed_time:
-
+ 
 Elapsed time 
 ------------
 Elapsed time section
