@@ -18,7 +18,7 @@ Input slit sizes and filter setup values in the 'Preset Position' window.
 Setup 1 is for EDXD measurement and setup 2 is for radiography measurement. Filter value 
 is typically 0 (no filter) for EDXD measurement and -45 (100 μm molybdenum) for 
 radiography measurement. Please close the window after completion.
-'1st Hsize', '1st Vsize', '2nd Hsize', '2nd Vsize', 'Filter' setups change 
+'1-st Hsize', '1-st Vsize', '2-nd Hsize', '2-nd Vsize', 'Filter' setups change 
 simultaneously by clicking :guilabel:`Slit for EDXD` (EDXD) or :guilabel:`For Camera` (radiography).
 
 .. figure:: /images/operation/slit_mode_switch_interface.png
