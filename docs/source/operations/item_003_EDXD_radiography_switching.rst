@@ -22,6 +22,6 @@ radiography measurement. Please close the window after completion.
 simultaneously by clicking :guilabel:`Slit for EDXD` (EDXD) or :guilabel:`For Camera` (radiography).
 
 .. figure:: /images/operation/slit_mode_switch.png
-   :alt: slit_mode_switch_interface
+   :alt: slit_mode_switch
    :width: 720px
    :align: center
