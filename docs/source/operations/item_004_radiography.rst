@@ -8,8 +8,8 @@ On the PEC user interface,
 2.	Confirm and/or move '2TH' to > 11°.
 3.	Move camera IN 
 
-.. figure:: /images/operation/switch_to_radiography_interface.png
-   :alt: switch_to_radiography_interface
+.. figure:: /images/operation/switch_to_radiography.png
+   :alt: switch_to_radiography
    :width: 720px
    :align: center
 
