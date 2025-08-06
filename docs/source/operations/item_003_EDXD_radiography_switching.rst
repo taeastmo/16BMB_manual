@@ -1,5 +1,13 @@
 EDXD and radiography mode switching
 -----------------------------------
+| There are currently three modes of operation:
+   1. EDXD with direct (collimated) beam
+   2. EDXD with condensed beam beam
+   3. Radiography imaging with direct beam
+
+
+
+
 
 | Setup of slits and filter for EDXD and radiography measurement.
 | Open :guilabel:`Slits/Filter Setup` on the PEC user interface.
@@ -15,7 +23,7 @@ Input slit sizes and filter setup values in the 'Preset Position' window.
 
    
 
-Setup 1 is for EDXD measurement and setup 2 is for radiography measurement. Filter value 
+Setup 1 is for EDXD measurements and setup 2 is for radiography measurement. Filter value 
 is typically 0 (no filter) for EDXD measurement and -45 (100 μm molybdenum) for 
 radiography measurement. Please close the window after completion.
 '1-st Hsize', '1-st Vsize', '2-nd Hsize', '2-nd Vsize', 'Filter' setups change 
