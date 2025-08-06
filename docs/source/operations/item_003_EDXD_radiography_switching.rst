@@ -47,6 +47,8 @@ radiography measurement. Please close the window after completion.
 '1-st Hsize', '1-st Vsize', '2-nd Hsize', '2-nd Vsize', 'Filter' setups change 
 simultaneously by clicking :guilabel:`Slit for EDXD` (EDXD) or :guilabel:`For Camera` (radiography).
 
+To select the desired mode, navigate to the Mode Selection area of the control screen and click either :guilabel:`Direct EDXD`, :guilabel:`Imaging`, or :guilabel:`Condensed EDXD`. 
+
 .. figure:: /images/operation/slit_mode_switch.png
    :alt: slit_mode_switch
    :width: 720px
