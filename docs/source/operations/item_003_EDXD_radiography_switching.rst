@@ -17,11 +17,13 @@ Direct beam mode delivers a collimated beam for EDXD diffraction measurements. T
 
 To set up direct and/or condensed beam modes for EDXD, select :guilabel:'Direct to Condensed' from the Mode Setup menu. This will bring up a menu with various parameters to customize each mode.
 
-.. figure:: /images/operation/mode_setup_menu.png
-   :alt: mode_setup_menu
+.. figure:: /images/operation/direct_2_condensed_mode.png
+   :alt: direct_2_condensed_mode_setup
    :width: 500px
    :align: center
 
+Generally, these parameters should only be set by the beamline staff, as they are based on careful alignment and calibration of the beamline. Please talk to beamline staff if you need them changed for any reason. After 
+the parameters are set, pressing :guilabel:'GO' under either beam mode will move motors to their respective preset positions. 
 
 
 
