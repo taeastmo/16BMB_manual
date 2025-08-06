@@ -6,7 +6,7 @@ There are currently three modes of operation:
 2. EDXD with condensed beam 
 3. Radiography imaging with direct beam
 
-Direct beam mode delivers a collimated beam for EDXD diffraction measurements. The size of the beam can be adjusted by varying the sizes of the incident slits, with a typical size being 100 (H) x 300 (V) microns. If the user desires higher flux, the condensed beam mode can be used to focus 1 mm of beam in the horizontal direction down to 20 microns (typical vertical size remains at 300 microns). This provides roughly 7.5x the on-sample flux as compared to using the collimated beam. Finally, radiography measurements can be acheived with a large collimated beam, typically 1 x 1 mm. This page provides instructions on setting up each mode so that during the experiment, users can switch between them with the push of a button.
+Direct beam mode delivers a collimated beam for EDXD diffraction measurements. The size of the beam can be adjusted by varying the sizes of the incident slits, with a typical size being 100 (H) x 300 (V) μm. If the user desires higher flux, the condensed beam mode can be used to focus 1 mm of beam in the horizontal direction down to 20 μm (typical vertical size remains at 300 μm). This provides roughly 7.5x the on-sample flux as compared to using the collimated beam. Finally, radiography measurements can be acheived with a large collimated beam, typically 1 x 1 mm. This page provides instructions on setting up each mode so that during the experiment, users can switch between them with the push of a button.
 
 
 
