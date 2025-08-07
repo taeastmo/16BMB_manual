@@ -28,11 +28,11 @@ the parameters are set, pressing :guilabel:`GO` under either beam mode will move
 
 
 | Setup of slits filter for direct beam EDXD and radiography measurement.
-| Click on the menu button :guilabel:`Mode Setup` on the PEC user interface and open the option :guilabel:'Radiography'.
+| Click on the menu button :guilabel:`Mode Setup` on the PEC user interface and open the option :guilabel:`Radiography`.
 
 .. figure:: /images/operation/radiography_setup_menu.png
    :alt: radiography setup
-   :width: 500px
+   :width: 720px
    :align: center
 
 Input slit sizes and filter setup values in the 'Preset Position' window. 
