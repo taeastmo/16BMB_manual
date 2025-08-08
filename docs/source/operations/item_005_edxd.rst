@@ -5,7 +5,7 @@ EDXD measurement
 On the PEC user interface,
 
 1.	Move camera OUT 
-2.	Click :guilabel:`Slits for EDXD` to narrow slits and to remove filter.
+2.	Click :guilabel:`Direct EDXD` or :guilabel:`Condensed EDXD` to configure slits, filter, mirror, etc.
 3.	Move Tip X to IN position 
 
 .. important:: Tip X must be moved to OUT position when putting in and removing PE cell to avoid accidentally bumping the collimator.
