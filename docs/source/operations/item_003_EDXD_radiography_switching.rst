@@ -35,7 +35,7 @@ To set the slit and filter parameters for radiography, click on the menu button 
 
 Input slit sizes and filter setup values in the 'Radiography Imaging Preset Positions' section.
 
-.. note:: /Under normal circumstances, the detector slits should always be set to 0 for the imaging setup. This prevents the detector from being unecessarily flooded with photons during imaging. 
+.. note:: Under normal circumstances, the detector slits should always be set to 0 for the imaging setup. This prevents the detector from being unecessarily flooded with photons during imaging. 
 
    
 After all setup is complete, select the desired mode by navigating to the Mode Selection area of the control screen and clicking either :guilabel:`Direct EDXD`, :guilabel:`Imaging`, or :guilabel:`Condensed EDXD`. 
