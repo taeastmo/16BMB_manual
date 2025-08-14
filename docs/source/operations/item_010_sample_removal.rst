@@ -1,21 +1,25 @@
 Sample Removal Procedure
 ------------------------
-Text goes here
+Due to several changes following the APS-Upgrade, users must adhere to the following procedure to safely remove their samples and reset the PE press for the next sample. 
 
 .. figure:: /images/operation/syringe_pump_interface.png
    :alt: syringe_pump_interface
    :width: 720px
    :align: center
 
-More text here
 
 .. warning:: Due to a problem with the pump controller, sometimes communication with the pump 
    gets lost and the indicators colors will change to white. 
    If this happens, please wait around 1-2 minutes, the communication should get re-established on its own. 
    Afterwards, you may need to re-do the last command. 
 
-Subsection 1
-^^^^^^^^^^^
+Sample Removal
+^^^^^^^^^^^^^^
+   1. After following the decompression 
+
+
+
+
 
    1. Make sure Mode is selected as “Compress”. 
 
