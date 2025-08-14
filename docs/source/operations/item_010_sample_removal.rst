@@ -2,23 +2,14 @@ Sample Removal Procedure
 ------------------------
 Due to several changes following the APS-Upgrade, users must adhere to the following procedure to safely remove their samples and reset the PE press for the next sample. 
 
-.. figure:: /images/operation/syringe_pump_interface.png
-   :alt: syringe_pump_interface
-   :width: 720px
-   :align: center
-
-
-.. warning:: Due to a problem with the pump controller, sometimes communication with the pump 
-   gets lost and the indicators colors will change to white. 
-   If this happens, please wait around 1-2 minutes, the communication should get re-established on its own. 
-   Afterwards, you may need to re-do the last command. 
+.. warning:: Failure to follow these instructions can lead to damage of beamline equipment and loss of experimental time.
 
 Sample Removal
 ^^^^^^^^^^^^^^
-   1. After following the decompression steps outlined in :ref:`Pressure control <Pressure_control>` as well as the steps to disable and interlock the heater power supply, find the "Automation1" shortcut on the desktop of the beamline control computer:
+   1. After following the decompression steps outlined in :ref:`Pressure control <Pressure_control>` as well as the steps to disable and interlock the heater power supply as explained in :ref:`Heating control <Heating_control>`, find the "Automation1" shortcut on the desktop of the beamline control computer:
 
-.. figure:: /images/operation/syringe_pump_interface.png
-   :alt: syringe_pump_interface
+.. figure:: /images/sample_removal/automation1_shortcut.png
+   :alt: automation1_shortcut
    :width: 720px
    :align: center
 
