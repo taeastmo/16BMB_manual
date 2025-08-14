@@ -35,7 +35,7 @@ By absorption scan
 
    - Set scan parameters of 'Start', 'End' and '#Pts' (#Pts has to be odd number) (confirm 'Relative').
 
-   .. figure:: /images/operation/scan_go.png
+   .. figure:: /images/operation/sam_y_scan_window.png
       :alt: scan_go
       :width: 300px
       :align: center
