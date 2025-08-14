@@ -13,14 +13,10 @@ Please open a ticket using the github `Issue Tracker <https://github.com/hrubiak
 Beamline scientists contacts
 ----------------------------
 
-| Ross Hrubiak (PEC)
-| Office: (630) 252-2264
-| email: hrubiak@anl.gov
+| Tyler Eastmond (PEC)
+| Office: 630-252-4121
+| email: teastmond@anl.gov
 
-| Guoyin Shen (PEC) 
-| Office: (630) 252-0429
-| email: gyshen@anl.gov
-
-| Dmitry Popov (White Laue Diffraction) 
-| Office: (630) 252-7106
-| email: dpopov@anl.gov
+| Innocent Ezenwa 
+| Office: TBD
+| email: iezenwa@anl.gov
