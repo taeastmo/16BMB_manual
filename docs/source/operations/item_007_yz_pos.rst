@@ -22,13 +22,13 @@ By radiography image
 By absorption scan
 ^^^^^^^^^^^^^^^^^^
 
-   - Move to :ref:`EXDX measurement mode <edxd_mode>`.
+   - Move to :ref:`EDXD measurement mode <edxd_mode>`.
    - Confirm 2TH is >10°.
    - Open 'Bluediamond' (:ref:`Bluediamond <bluediamond>` software).
    - Select 'IC2 or Diode' in Detector in Bluediamond, uncheck all others.
    - Open 'scan' on SAM Y (or Z)
 
-   .. figure:: /images/operation/scan_launch.png
+   .. figure:: /images/operation/sam_y_scan.png
       :alt: scan_launch
       :width: 720px
       :align: center
