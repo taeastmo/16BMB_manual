@@ -3,7 +3,7 @@
 Beamline support
 ================
 
-Call the floor coordinator: either call 2-0101 and leave the beamline phone extension or use
+Call the floor coordinator: either call 2-0101 from the beamline phone and leave the beamline phone extension or use
 this link `<https://www.aps.anl.gov/form/esaf>`_ from the public beamline computer.
 
 Floor coordinator website: `<https://www.aps.anl.gov/Users-Information/Help-Reference/Contacts/Floor-Coordinators>`_
