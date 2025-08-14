@@ -1,3 +1,5 @@
+.. _Pressure_control:
+
 Pressure control
 ----------------
 The PEC oil pressure is controlled by the Teledyne ISCO 30D dual syringe pump system. 
