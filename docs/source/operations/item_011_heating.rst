@@ -1,3 +1,4 @@
+.. _Heating_control:
 
 Heating control
 ---------------
