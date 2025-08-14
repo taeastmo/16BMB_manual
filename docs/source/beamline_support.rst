@@ -16,9 +16,7 @@ Beamline scientist contacts
 | Tyler Eastmond
 | Office: 630-252-4121
 | Email: teastmond@anl.gov
-
 |
-
 | Innocent Ezenwa 
 | Office: TBD
 | Email: iezenwa@anl.gov
