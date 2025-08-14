@@ -15,7 +15,7 @@ Due to several changes following the APS-Upgrade, users must adhere to the follo
 
 Sample Removal
 ^^^^^^^^^^^^^^
-   1. After following the decompression steps outlined in :ref:`Pressure control <item_009_pressure>`
+   1. After following the decompression steps outlined in :ref:`Pressure control <item_009_pressure>` as well as the steps to 
 
 
 
