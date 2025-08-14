@@ -15,7 +15,13 @@ Due to several changes following the APS-Upgrade, users must adhere to the follo
 
 Sample Removal
 ^^^^^^^^^^^^^^
-   1. After following the decompression steps outlined in :ref:`Pressure control <Pressure_control>` as well as the steps to 
+   1. After following the decompression steps outlined in :ref:`Pressure control <Pressure_control>` as well as the steps to disable and interlock the heater power supply, find the "Automation1" shortcut on the desktop of the beamline control computer:
+
+.. figure:: /images/operation/syringe_pump_interface.png
+   :alt: syringe_pump_interface
+   :width: 720px
+   :align: center
+
 
 
 
