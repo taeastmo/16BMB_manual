@@ -12,6 +12,7 @@ Sample Removal
    :alt: automation1_shortcut
    :width: 720px
    :align: center
+
 |
    Clicking on the shortcut will launch a software package that allows the Aerotech rotation stage underneath the PE press to be deactivated. While active, a small amount of holder current keeps the rotation stage at its      set position. However, the holding current is not enough to withstand the torque required to force the bottom piston of the PE press to its starting position after an experiment, and will thus throw an overcurrent fault if not deactivated before resetting the piston of the press. To avoid this unnecessary fault, the holding current of the rotation stage can be deactivated as follows. 
 
