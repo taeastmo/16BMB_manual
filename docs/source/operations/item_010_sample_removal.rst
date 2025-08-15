@@ -67,10 +67,11 @@ Lowering the PE press piston
 .. important:: This process takes patience and cannot be rushed with "brute force." The friction between the hydraulic line and oil prevents rapid movement of the piston, and trying to rush the process only increases the chances that the crescent wrench will slip off of the breech and collide with the collimation tip or the pre-sample slits.
 
 After removing the sample, the bottom piston of the PE press needs to be lowered to allow sufficient travel for compression of the next sample. 
-1. With the PE press rotation locked, place the plastic spacer block in between the two anvils.
-2. Ensure all syringe pump valves are open, including the line valve.
-3. Turn the breech clockwise with a crescent wrench to drive the piston down.
-4. Close the line valve of the syrine pump to prevent the piston from raising again due to the weight of the hydraulic oil in the line.
+
+   1. With the PE press rotation locked, place the plastic spacer block in between the two anvils.
+   2. Ensure all syringe pump valves are open, including the line valve.
+   3. Turn the breech clockwise with a crescent wrench to drive the piston down.
+   4. Close the line valve of the syrine pump to prevent the piston from raising again due to the weight of the hydraulic oil in the line.
 
 .. figure:: /images/sample_removal/PE_piston_reset.png
    :alt: PE_piston_reset
