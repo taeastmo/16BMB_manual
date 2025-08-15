@@ -60,7 +60,7 @@ Clicking on the shortcut will launch a software package that allows the Aerotech
 
 6. Once the PE press is locked into place, used a crescent wrench to loosen the breech and gently force the top anvil to break away from the sample assembly. Carefully back out the breech until there is sufficient space to remove the sample cell. 
 
-.. warnining:: Do not attempt to turn the breech until the valves of the syringe pump, including the line valve, have been opened. This should have already been completed, but review :ref:`Pressure control <Pressure_control>` if this step was skipped for some reason.
+.. warning:: Do not attempt to turn the breech until the valves of the syringe pump, including the line valve, have been opened. This should have already been completed, but review :ref:`Pressure control <Pressure_control>` if this step was skipped for some reason.
 
 Lowering the PE press piston
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
