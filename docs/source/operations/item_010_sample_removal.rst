@@ -23,8 +23,12 @@ Sample Removal
    :align: center
 
 | 
-After connecting to the rotary stage controller, locate the toggle switch found in the bottom lefthand corner of the control screen. Click the toggle to deactivate the rotation stage motor. Once this is completed, there will no longer be holding current applied to the rotary stage and the PE press can be rotated freely by hand. 
+After connecting to the rotary stage controller, locate the toggle switch found in the bottom lefthand corner of the control screen. Click the toggle to deactivate the rotation stage motor. Once this is completed, there will be no holding current applied to the rotary stage and the PE press can be rotated freely by hand. 
 
+.. figure:: /images/sample_removal/automation1_axis_enabled.png
+   :alt: automation1_axis_enabled
+   :width: 720px
+   :align: center
 
 
 
