@@ -38,68 +38,37 @@ Clicking on the shortcut will launch a software package that allows the Aerotech
 
 |
 
-4. Enter the hutch and rotate the PE press  
+4. Enter the hutch and rotate the PE press counterclockwise to align the hole of the lock with the locking pin.
+
+.. important:: Please ensure the collimator tip is in the "out" position to avoid bumping the tip. If the tip is bumped, realignment can take several hours by the beamline staff.
+
+.. figure:: /images/sample_removal/PE_press_rotated.png
+   :alt: PE_press_rotated
+   :width: 720px
+   :align: center
+
+|
+
+5. Raise the locking pin into the lock with the socket head cap screw and secure the pin by dropping the screw into the retaining groove.
+
+.. figure:: /images/sample_removal/aerotech_locking_sequence.png
+   :alt: aerotech_locking_sequence
+   :width: 720px
+   :align: center
+
+|
+
+6. Once the PE press is locked into place, used a crescent wrench to loosen the breech and gently force the top anvil to break away from the sample assembly. Carefully back out the breech until there is sufficient space to remove the sample cell. 
+
+.. warnining:: Do not attempt to turn the breech until the valves of the syringe pump, including the line valve, have been opened. This should have already been completed, but review :ref:`Pressure control <Pressure_control>` if this step was skipped for some reason.
+
+Lowering the PE press piston
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
 
-   1. Make sure Mode is selected as “Compress”. 
 
-   .. note:: Stop the Pressure Control before switching Mode. (Mode button is hidden while Pressure Control is in “Run” state). 
 
-   2. Refill pumps A and B (click the button :guilabel:`Refill` for each pump). 
-
-   .. note:: Wait until both pumps finish refilling.
-
-   3. Set Max flow for both pumps to 5ml/min.
-   #. Set the Oil pressure setpoint to 20 psi.
-   #. Set Pressure control to Run. Pump will go through the initial equalization sequence; this will take around 30 seconds to one minute. 
-
-   .. note:: Pressure may go up to ~80 psi and fluctuate somewhat during this process. 
-      Wait until the Actual oil pressure stabilizes at 20 psi.
-
-   6. Increase the Oil pressure setpoint to your required pressure (maximum allowed is 14,000psi). Pump will gradually reach the setpoint pressure and maintain the pressure continuously. 
-   #. If you don't want the pump to maintain the pressure continuously after reaching the setpoint, set the Maximum oil flow-rates for pumps A and B to 0.0001 ml/min. 
-
-   .. important:: DO NOT switch Pressure Control to Stop. 
-
-   8. To reach the next oil pressure setpoint, re-enable pressure control by setting Max flow rates back to 5 ml/min.
-
-Subsection 2
-^^^^^^^^^^^^^
-
-   1. Set Pressure Control to Stop.
-   2. Set Mode to Decompress. 
-   3. Set Pressure Control to Run.
-
-   .. important:: Wait around 1 minute before doing anything else. 
-      After around 30 seconds, one of the pumps (A or B) will start emptying out (there will be a valve opening/closing sound). 
-      Wait until the level in that pump reaches around 7.5 ml.
-
-   4. Set the setpoint pressure to 20 psi.
-   #. After the actual oil pressure is at 20 psi, switch pressure control to Stop.
-   #. Open the valves to vent the remaining oil pressure:
-
-      1. Open valve control from the main PEC interface menu "Pump control menu"
-
-      .. figure:: /images/sp/valve_control_2.png
-         :alt: valve_control
-         :width: 300px
-         :align: center
-
-      2. Toggle Valves 1-4 to Low. 
-
-      .. note:: If the readback text for a valve is high (red), and pressed button is low: click the :guilabel:`high` button and then the :guilabel:`low` button.
-
-      .. note:: If the valve 1-4 buttons are hidden check the following conditions are met: 
-         
-         * Pressure : <= 20psi
-         * Pressure setpoint: 20psi
-         * Pressure control: stopped
-
-   .. figure:: /images/sp/valve_control_blocked.png
-       :alt: valve_control_blocked
-       :width: 300px
-       :align: center
 
 
