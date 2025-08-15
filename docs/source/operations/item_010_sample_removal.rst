@@ -29,6 +29,11 @@ After connecting to the rotary stage controller, locate the toggle switch found 
    :alt: automation1_axis_enabled
    :width: 720px
    :align: center
+.. figure:: /images/sample_removal/automation1_axis_disabled.png
+   :alt: automation1_axis_disabled
+   :width: 720px
+   :align: center
+
 
 
 
