@@ -77,6 +77,9 @@ After removing the sample, the bottom piston of the PE press needs to be lowered
    :width: 720px
    :align: center
 
+|
+
+.. warning:: The syringe pump is now located on the 16BMB hutch roof, which puts the hydraulic oil reservior and majority of the hydraulic line above the height of the PE press. The potential energy of the oil in the line is enough to push the bottom piston of the press upwards and, given enough time, to pop the piston completely out of the press body. The latter would cause a significant oil leak and result in a loss of at least 3 shifts of beamtime. After removing the sample and lowering the press piston, the line valve MUST BE CLOSED until the next sample is loaded and compressed.    
 
 
 
@@ -85,9 +88,7 @@ After removing the sample, the bottom piston of the PE press needs to be lowered
 
 
 
-
-
-The syringe pump is now located on the 16BMB hutch roof, which puts the hydraulic oil reservior and majority of the hydraulic line above the height of the PE press. The potential energy of the line  
+ 
 
 
 
