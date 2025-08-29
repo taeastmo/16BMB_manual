@@ -22,7 +22,7 @@ EDXD data collation and viewing is done using the :ref:`hpMCA <hpMCA>` software:
 2. \ :menuselection:`File --> foreground --> open detector`.
 3. Click :guilabel:`&OK`, keeping the default PV name.
 
-.. note:: The EDXD detector PV name should be ``16bmb:aim_adc1``.
+.. note:: The EDXD detector PV name should be ``16bmbDante:mca1``.
 
 4. Find sample :ref:`Y, Z, <yz_position>` and :ref:`X, <x_position>` positions before starting EDXD data collection.
 
