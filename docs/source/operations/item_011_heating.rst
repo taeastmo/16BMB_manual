@@ -5,11 +5,11 @@ Heating control
 
 .. important:: To heat samples under high pressure, a 10 V, 265 amp TDK power supply is used to pass current through a cylindrical graphite heater inside the sample cell. For safe operation of the power supply, an interlock system with an indicator light is provided to prevent output of electrical current while experimentalists are inside the hutch. While the voltage rating of the power supply is relatively low, its rated current output is high and could result in arcing if a wrench or other metal object short circuits the path between the PE anvils. Please read the following procedure carefully.
 
-An interlock switch is located on the experimental table to the immediate right of the PE press. The color of the indicator light can be green, yellow, or red, depending on the status of the interlock switch and the output state of the TDK power supply. The figure below illustrates all three states. A green light indicates that the switch has been toggled to activate the interlock feature. The TDK cannot output any 
+An interlock switch is located on the experimental table to the immediate right of the PE press. The color of the indicator light can be green, yellow, or red, depending on the status of the interlock switch and the output state of the TDK power supply. The figure below illustrates all three states. A green light indicates that the switch has been toggled to activate the interlock feature, which prevents The TDK from outputting any current. A yellow light indicates that the interlock feature is deactivated and the TDK output is off. In this case, the yellow light warns of a potential hazard--current could be supplied to the PE press while an experimentalist is loading samples, connecting cooling lines, etc. if the TDK output is inadvertently activated by a second experimentalist. Finally, a red indicator light means that the interlock is deactivated and the TDK is outputting current to the PE press! 
 
 
-.. figure:: /images/operation/heating_power_on.png
-   :alt: heating_power_on
+.. figure:: /images/operation/TDK_interlock_diagram.png
+   :alt: TDK_interlock_diagram
    :width: 600px
    :align: center
 
