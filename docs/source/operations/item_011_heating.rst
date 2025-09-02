@@ -18,7 +18,7 @@ Before connection of cable, please confirm 'Power Output' in 'PEC User Interface
 
 .. figure:: /images/operation/TDK_heating_controls_menu.png
    :alt: TDK_heating_controls_menu
-   :width: 600px
+   :width: 700px
    :align: center
 
 In hutch, please confirm 'Heater Output Control Switch' is 'Disabled'.
