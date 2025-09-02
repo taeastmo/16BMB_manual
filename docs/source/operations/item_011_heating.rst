@@ -16,8 +16,8 @@ An interlock switch is located on the experimental table to the immediate right 
 
 Before connection of cable, please confirm 'Power Output' in 'PEC User Interface' is 'OFF'.
 
-.. figure:: /images/operation/heating_power_on.png
-   :alt: heating_power_on
+.. figure:: /images/operation/TDK_heating_controls_menu.png
+   :alt: TDK_heating_controls_menu
    :width: 600px
    :align: center
 
