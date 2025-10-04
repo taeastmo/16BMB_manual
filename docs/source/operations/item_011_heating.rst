@@ -48,13 +48,16 @@ Once the heater control screen is open, follow these steps:
    6. Enable the power output.
    7. Set the PID to 1-2 W. The voltage will start to increase by 0.001 V at a time. When the voltage reaches ~0.035 V (depending on the resistance of the sample cell), the TDK will begin outputting current and the PID should have good control over the power supply. 
    8. Check that 'Readback (Watt)' is responding, and 'Resistance' is lower than 0.1 (typically, ~0.04-0.05 at ~1 W).
+   9. If heater response and resistance is okay, increase 'Setpoint (Watt)' slowly (it is better to keep <5 difference between 'Readback (Watt)' and 'Setpoint (Watt).).
  
 .. Note:: Response of heater is slow particularly at <10W. Please wait a while.
 
-   9. If heater response and resistance is okay, increase 'Setpoint (Watt)' slowly (it is better to keep <5 difference between 'Readback (Watt)' and 'Setpoint (Watt).).
 
+.. Note:: The PID controller will take care of the current output. Never change the value shown in the current setpoint field. 
+
+
+.. Important:: If you fail to set BOTH the PID power setpoint and voltage setpoint to zero before beginning heating, you run the risk of instantly applying a large amount of current to the press and subsequently destroying the graphite heater. Even if the PID power setpoint is zero, a non-zero value of voltage will cause the heater to output some amount of current (often a very large value), before slowly trying to back the voltage down to the PID power setpoint. 
   
-
 
 Cooling can be done by
 
@@ -63,12 +66,11 @@ Cooling can be done by
 
 In both cases, after cooling,
 
-   #. Input 0 in 'Setup (Watt)'.
+   #. Input 0 for the PID power setpoint.
    #. 'PID On/OFF' OFF
    #. 'Power Output' OFF
-   #. Input 0 in 'Set Point (V) under 'Voltage'.
-
-   #. 'Disable' on the 'Heater Output Control Switch' in the hutch.
+   #. Input 0 in 'Set Point (V)' under 'Voltage'.
+   #. Toggle the interlock switch so the light turns green.
 
    .. danger:: Do not touch on press until turning off the power of heater power supply. 
       Even after the power off, please take care. 
