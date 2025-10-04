@@ -36,31 +36,25 @@ If you need to heat your sample during your experiment, the procedure is as foll
    5. Before leaving the hutch, flip the toggle switch on the interlock so the light turns yellow.
    6. Compress the sample to the desired pressure.
    7. On the beamline control sceen, click :guilabel:`HEATING` to bring up the TDK power supply control screen.
-   8. Before beginning heating, ensure that the PID power setpoint and voltage setpoint are set to zero. 
-   9. Please input '8' in the voltage protection and limit setpoint fields. 
-   10. Please input '200' in the current limit field. Please input again even if the value is 200. 
-   11. Turn on the PIC controller (with the setpoint still at 0).
-   12. Enable the power output.
-   13. Set the PID to 1-2 W. The voltage will start to increase by 0.001 V at a time. When the voltage reaches ~0.035 V (depending on the resistance of the sample cell, the TDK will begin outputting current and the PID should have good control over the power supply. 
-   14. 
+   8. Before starting heating, it is recommended to start a strip chart to save log of heating. Instructions for this are included in the "General Data Logging" section of this manual.
 
-   4. Before starting heating, it is recommended to start ':ref:`LogBook <logbook>`' to save log of heating. 
+Once the heater control screen is open, follow these steps:
 
-On 'PEC User Interface',
-
-   1.	At first, please confirm 'Voltage' 'Set Point (V)'=0, 'Setpoint (Watt) on PID control = 0, and 'Over Protection' is ON.
-   2.	'Power Output' ON
-   3.	Input 200 in 'Limit' under 'Current'. Please input again even if the value is 200.
+   1. Before beginning heating, ensure that the PID power setpoint and voltage setpoint are set to zero. 
+   2. Input '8' in the voltage protection and limit setpoint fields. 
+   3. Input '200' in the current limit field. Please input again even if the value is 200. 
    4.	Click :guilabel:`Clear fault`.
-   5.	'PID ON/OFF' ON
-   6.	Tweak 'Setpoint (Watt)' by 1 W to 3 W.
-   7.	Check 'Readback (Watt)' is responding, and 'Resistance' is lower than 0.1 (typically, ~0.04-0.05 at ~1 W).
+   5. Turn on the PIC controller (with the setpoint still at 0).
+   6. Enable the power output.
+   7. Set the PID to 1-2 W. The voltage will start to increase by 0.001 V at a time. When the voltage reaches ~0.035 V (depending on the resistance of the sample cell), the TDK will begin outputting current and the PID should have good control over the power supply. 
+   8. Check that 'Readback (Watt)' is responding, and 'Resistance' is lower than 0.1 (typically, ~0.04-0.05 at ~1 W).
+ 
+.. Note:: Response of heater is slow particularly at <10W. Please wait a while.
 
-   .. Note:: Response of heater is slow particularly at <10W. Please wait a while.
+   9. If heater response and resistance is okay, increase 'Setpoint (Watt)' slowly (it is better to keep <5 difference between 'Readback (Watt)' and 'Setpoint (Watt).).
 
-   .. important:: Increase of 'Readback (Watt)' may stop at <3W. If so, please check 'Measured (Amp)' under 'Current'. If  'Measured (Amp)' value is 2.65, it is likely to forgot the procedure 3 (Input of 200 in 'Limit' of 'Current'). In this case, please lower 'Setpoint (Watt)' to 0, turn OFF the 'PID ON/OFF', input 0 in Set Point (V), and turn Off the 'Power Output'. Then, please restart the procedures.
+  
 
-8.	If heater response and resistance is okay, increase 'Setpoint (Watt)' slowly (it is better to keep <5 difference between 'Readback (Watt)' and 'Setpoint (Watt).).
 
 Cooling can be done by
 
