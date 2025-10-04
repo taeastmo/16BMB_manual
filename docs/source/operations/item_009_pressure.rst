@@ -87,5 +87,5 @@ PE Press Live valve
 
 The Live valve is and electronically actuated valve in-line between the Syringe pump and the PE press. 
 The Line valve allows to keep the pressure in the PE press isolated from the Syringe pump when changing modes 
-(Compression <-> Decompression), when heating, or when leaviing the PE press unattended for an extended perions of time.
-This subseciton describes the operation of the Line valve.
+(Compression <-> Decompression), when heating, or when leaving the PE press unattended for an extended perions of time.
+The line valve should also be closed following an experiment when the sample has been removed to keep the bottom piston from being popped out of the PE press. This is explained in more detail in the following section.
