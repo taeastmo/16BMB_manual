@@ -6,16 +6,16 @@ The strip chart software can be used to continuously monitor various PVs (e.g., 
 
 1. Open 'Strip Chart' from desktop shortcut.
 
-   .. figure:: /images/logbook/start_screen.png
-      :alt: log_book_start_screen
+   .. figure:: /images/strip_chart/strip_chart_initialized.png
+      :alt: strip_chart_initialized
       :width: 550px
       :align: center
 
-2. \ :menuselection:`File --> New log`
+2. From the 'File' menu, select 'Open' and then select the folder 'stipChart-setup-files.' This will show a list of configuration files that tell the Strip Chart which PVs to monitor. The beamline staff can help you customize a file if needed. For basic pressure and temperature logging, select 'Pressure-temperature-log.xml.'
 
-   .. figure:: /images/logbook/new.png
-      :alt: log_book_new
-      :width: 400px
+   .. figure:: /images/strip_chart/strip_chart_setup_files.png
+      :alt: strip_chart_setup_files
+      :width: 450px
       :align: center
 
 3. Next to 'Log file', click :guilabel:`Browse...` and choose the name for the log file, 
