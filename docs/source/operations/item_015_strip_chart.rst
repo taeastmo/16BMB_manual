@@ -1,14 +1,10 @@
 
-   
-.. _strip_chart:
-
-General data logging
+Logging data with Strip Chart
 --------------------
 
-A GUI program **Log book** can automatically log compression, heating, and other records whenever new EDXD 
-and/or radiography files are saved. 
+The strip chart software can be used to continuously monitor various PVs (e.g., pressure, temperature, heater power, etc.).
 
-1. Open 'Log book' from desktop shortcut.
+1. Open 'Strip Chart' from desktop shortcut.
 
    .. figure:: /images/logbook/start_screen.png
       :alt: log_book_start_screen
