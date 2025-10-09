@@ -32,10 +32,11 @@ The strip chart software can be used to continuously monitor various PVs (e.g., 
       :width: 550px
       :align: center
 
-
 5. Click 'Start' in the bottom lefthand corner of the strip chart interface. There should now be numerical values displayed for each PV and the strip chart should be plotting them continuously. 
    
    .. figure:: /images/strip_chart/strip_chart_logging.png
       :alt: strip_chart_logging
       :width: 550px
       :align: center
+
+Click 'Stop' when you are finished logging data.
