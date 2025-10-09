@@ -33,20 +33,9 @@ The strip chart software can be used to continuously monitor various PVs (e.g., 
       :align: center
 
 
-**LogBook** allows recording any process variable (PV); however 
-a pre-defined list of PV's is stored in setup ``*.env`` file in the program's ``resources`` directory.
-
-The following default PV's will be logged:
-
-.. csv-table:: LogBook PV's
-   :header: "Description", "PV"
-   :widths: 50, 100
-   :file: tables/table7_logbook_settings.csv
-
-.. note:: Text entered into the 'Note' field will also be logged each time. 
-   The Note text can be changed by the user at any time and can be up to 80 characters long.
-
-.. figure:: /images/logbook/record.png
-   :alt: log_book_new
-   :width: 500px
-   :align: center
+5. Click 'Start' in the bottom lefthand corner of the strip chart interface. There should now be numerical values displayed for each PV and the strip chart should be plotting them continuously. 
+   
+   .. figure:: /images/strip_chart/strip_chart_logging.png
+      :alt: strip_chart_logging
+      :width: 550px
+      :align: center
