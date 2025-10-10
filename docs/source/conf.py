@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = '16-BM-B Docs'
-copyright = '2022, Argonne National Laboratory'
-author = 'R. Hrubiak'
+copyright = '2025, Argonne National Laboratory'
+author = 'R. Hrubiak & T. Eastmond'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = '0.2'
 
 master_doc = 'index'
 
