@@ -6,7 +6,7 @@ Beamline description
 The HPCAT 16-BM-B beamline is dedicated to white beam x-ray diffraction and radiography 
 research of materials under high pressure.
 
-With the APS bending magnet white x-rays (5-120 keV), the multi-angle energy 
+With the APS bending magnet white x-rays (5-100 keV), the multi-angle energy 
 dispersive x-ray diffraction (EDXD) technique is extensively utilized to obtain 
 structure factors up to Q=around 20 Å\ :sup:`-1`. A Paris-Edinburgh Cell (PEC) 
 (250 ton capability) is equipped for samples requiring a large scattering volume, 
