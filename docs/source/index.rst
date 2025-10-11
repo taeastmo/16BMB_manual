@@ -10,12 +10,13 @@
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: User guide:
    
    beamline_description
    sample_preparation
    beamline_operation
+      operations/radiography
    beamline_troubleshooting
    beamline_support
    staff
