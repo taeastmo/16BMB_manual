@@ -7,16 +7,15 @@
    :alt: 16-BM-B
    :width: 720px
    :align: center
-
-
-.. toctree::
-   :maxdepth: 3
-   :caption: User guide:
    
-   beamline_description
-   sample_preparation
-   beamline_operation
-   login
+beamline_description
+----------------------------
+sample_preparation
+----------------------------
+beamline_operation
+----------------------------
+login
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    beamline_troubleshooting
    beamline_support
