@@ -16,8 +16,7 @@
    beamline_description
    sample_preparation
    beamline_operation
-
-      operations/radiography
+      login
 
    beamline_troubleshooting
    beamline_support
