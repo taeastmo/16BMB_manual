@@ -16,7 +16,7 @@
    beamline_description
    sample_preparation
    beamline_operation
-      login
+   login
 
    beamline_troubleshooting
    beamline_support
