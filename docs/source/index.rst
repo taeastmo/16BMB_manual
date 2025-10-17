@@ -10,13 +10,32 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: User guide:
-   
+   :caption: Beamline Overview:
    beamline_description
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Sammple Assemblies
    sample_preparation
-   beamline_operation
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Beamline Operation
+   login
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Troubleshooting
    beamline_troubleshooting
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Beamline Support
    beamline_support
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Staff
    staff
 
 .. toctree::
