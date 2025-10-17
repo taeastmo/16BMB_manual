@@ -9,19 +9,12 @@
    :align: center
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: User guide:
    
    beamline_description
    sample_preparation
-
-   .. toctree::
-      :maxdepth: 2
-      :caption: Beamline operation
-
-      login
-
-
+   beamline_operation
    beamline_troubleshooting
    beamline_support
    staff
