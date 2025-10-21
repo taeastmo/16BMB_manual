@@ -47,7 +47,7 @@ Compression
 Decompression
 ^^^^^^^^^^^^^
 
-   #. Remove the collimation tip.
+   #. Move the collimation tip to the "out" position.
    #. Close the line valve to the PE press.
    #. Set Pressure Control to Stop.
    #. Set Mode to Decompress. 
