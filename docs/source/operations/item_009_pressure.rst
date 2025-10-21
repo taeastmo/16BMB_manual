@@ -47,15 +47,17 @@ Compression
 Decompression
 ^^^^^^^^^^^^^
 
-   1. Set Pressure Control to Stop.
-   2. Set Mode to Decompress. 
-   3. Set Pressure Control to Run.
+   #. Remove the collimation tip.
+   #. Close the line valve to the PE press.
+   #. Set Pressure Control to Stop.
+   #. Set Mode to Decompress. 
+   #. Set Pressure Control to Run.
 
    .. important:: Wait around 1 minute before doing anything else. 
       After around 30 seconds, one of the pumps (A or B) will start emptying out (there will be a valve opening/closing sound). 
       Wait until the level in that pump reaches around 7.5 ml.
 
-   4. Set the setpoint pressure to 20 psi.
+   #. Set the setpoint pressure to 20 psi.
    #. After the actual oil pressure is at 20 psi, switch pressure control to Stop.
    #. Open the valves to vent the remaining oil pressure:
 
