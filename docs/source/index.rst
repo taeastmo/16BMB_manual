@@ -25,6 +25,23 @@
    :caption: Beamline Operation
    
    login
+   epics_interface
+   EDXD_radiography_switching
+   radiography
+   edxd
+   bluediamond
+   yz_pos
+   x_pos
+   pressure
+   sample_removal
+   heating
+   aEDXD
+   ultrasound
+   logbook
+   strip_chart
+   webcam
+   globus
+
 
 .. toctree::
    :maxdepth: 2
