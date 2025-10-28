@@ -80,7 +80,7 @@ After removing the sample, the bottom piston of the PE press needs to be lowered
 
 |
 
-   5. Re-activate the rotation stage axis by clicking the toggle switch in the Automation1 software. Then click the :guilabel:`Home Pos.` button for the PE rotation stage to align the PE press sample stages with the beamline coordinate system.
+   5. Re-activate the rotation stage axis by clicking the toggle switch in the Automation1 software. Then, on the beamline control screen, click the rotation stage's :guilabel:`Home Pos.` button to align the PE press sample stages with the beamline coordinate system.
 
 
 .. figure:: /images/sample_removal/automation1_reconnect.png
