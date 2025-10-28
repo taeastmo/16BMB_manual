@@ -40,7 +40,7 @@ Compression
    6. Increase the Oil pressure setpoint to your required pressure (maximum allowed is 14,000psi). Pump will gradually reach the setpoint pressure and maintain the pressure continuously. 
    #. If you don't want the pump to maintain the pressure continuously after reaching the setpoint, set the Maximum oil flow-rates for pumps A and B to 0.0001 ml/min. 
 
-   .. important:: DO NOT switch Pressure Control to Stop. 
+   .. important:: DO NOT switch Pressure Control to Stop.  
 
    8. To reach the next oil pressure setpoint, re-enable pressure control by setting Max flow rates back to 5 ml/min.
 
@@ -49,7 +49,7 @@ Decompression
 
    #. Move the collimation tip to the "out" position.
    #. Close the line valve to the PE press.
-   #. Set Pressure Control to Stop.
+   #. Set Pressure Control to Stop. If the :guilabel:`Stop` button is missing, it means the line valve of the press is still open and the pressure is too high to safely switch to Decompress mode. Please close the line value and the :guilabel:`Stop` button will reappear.
    #. Set Mode to Decompress. 
    #. Set Pressure Control to Run.
 
