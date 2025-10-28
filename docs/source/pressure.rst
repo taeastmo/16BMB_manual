@@ -57,7 +57,7 @@ Decompression
       After around 30 seconds, one of the pumps (A or B) will start emptying out (there will be a valve opening/closing sound). 
       Wait until the level in that pump reaches around 7.5 ml.
 
-   6. Ensure the pressure of the pump is set to the same pressure as the line valve, then open the line valve.
+   6. Ensure the pressure of the pump is within 100 psi of the line valve pressure, then open the line valve.
    #. Set the setpoint pressure to 20 psi.
    #. After the actual oil pressure is at 20 psi, switch pressure control to Stop.
    #. Open the valves to vent the remaining oil pressure:
