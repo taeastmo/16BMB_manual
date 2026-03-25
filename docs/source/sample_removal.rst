@@ -8,8 +8,8 @@ Sample Removal
 ^^^^^^^^^^^^^^
 1. After following the decompression steps outlined in :ref:`Pressure control <Pressure_control>` as well as the steps to disable and interlock the heater power supply as explained in :ref:`Heating control <Heating_control>`, find the button :guilabel:`Axis Control` in the "PE Rotation" area of the main control screen:
 
-.. figure:: /images/sample_removal/automation1_shortcut.png
-   :alt: automation1_shortcut
+.. figure:: /images/sample_removal/Main_control_Screen_rotary_axis_control.png
+   :alt: Main_control_Screen_rotary_axis_control
    :width: 720px
    :align: center
 |
