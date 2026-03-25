@@ -8,31 +8,18 @@ Sample Removal
 ^^^^^^^^^^^^^^
 1. After following the decompression steps outlined in :ref:`Pressure control <Pressure_control>` as well as the steps to disable and interlock the heater power supply as explained in :ref:`Heating control <Heating_control>`, find the :guilabel:`Axis Control` button in the "PE Rotation" area of the main control screen:
 
-.. figure:: /images/sample_removal/automation1_shortcut.png
-   :alt: automation1_shortcut
+.. figure:: /images/sample_removal/Main_control_screen_rotary_axis_control.png
+   :alt: Main_control_screen_rotary_axis_control
    :width: 720px
    :align: center
 |
 
-Clicking on the shortcut will launch a software package that allows the Aerotech rotation stage underneath the PE press to be deactivated. While active, a small amount of holder current keeps the rotation stage at its     set position. However, the holding current is not enough to withstand the torque required to force the bottom piston of the PE press to its starting position after an experiment, and will thus throw an overcurrent fault if not deactivated before resetting the piston of the press. To avoid this unnecessary fault, the holding current of the rotation stage can be deactivated as follows. 
+Clicking on the button will launch a menu with a toggle that can de-energize/energize the PE rotary stage. While active, a small amount of holding current keeps the rotation stage at its set position. However, the holding current is not enough to withstand the torque required to force the bottom piston of the PE press to its starting position after an experiment, and will thus throw an overcurrent fault if not de-energized before resetting the piston of the press. To avoid this unnecessary fault, the holding current of the rotation stage can be deactivated as follows. 
 
-2. Once the Automation1 software menu is visible, ensure the :guilabel:`639171-1-1 Loaded` box is selected and click :guilabel:`Connect`. 
+2. Once the Aerotech Rotary Stage Axis Control menu is visible, click :guilabel:`Disable`. The "Axis Status" light should now be grayed out, indicating that the rotary stage holding current is de-energized. The PE press can now be rotated freely by hand.
 
-.. figure:: /images/sample_removal/automation1_connect.png
-   :alt: automation1_connect
-   :width: 720px
-   :align: center
-
-|
-
-3. After connecting to the rotary stage controller, locate the toggle switch found in the bottom lefthand corner of the control screen. Click the toggle to deactivate the rotation stage motor. Once this is completed, there will be no holding current applied to the rotary stage and the PE press can be rotated freely by hand. 
-
-.. figure:: /images/sample_removal/automation1_axis_enabled.png
-   :alt: automation1_axis_enabled
-   :width: 720px
-   :align: center
-.. figure:: /images/sample_removal/automation1_axis_disabled.png
-   :alt: automation1_axis_disabled
+.. figure:: /images/sample_removal/Aerotech_axis_control_MEDM.png
+   :alt: Aerotech_axis_control_MEDM
    :width: 720px
    :align: center
 
@@ -72,6 +59,7 @@ After removing the sample, the bottom piston of the PE press needs to be lowered
    2. Ensure all syringe pump valves are open, including the line valve.
    3. Turn the breech clockwise with a crescent wrench to drive the piston down.
    4. Close the line valve of the syrine pump to prevent the piston from raising again due to the weight of the hydraulic oil in the line.
+   5. Re-activate the rotation stage axis by clicking the :guilabel:`Enable` toggle switch in the Aerotech Rotary Stage Axis Control menu. Then, on the beamline control screen, click the rotation stage’s Home Pos. button to align the PE press sample stages with the beamline coordinate system.
 
 .. figure:: /images/sample_removal/PE_piston_reset.png
    :alt: PE_piston_reset
