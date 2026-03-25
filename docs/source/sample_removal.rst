@@ -16,7 +16,7 @@ Sample Removal
 
 Clicking on this button will launch the "Aerotech Rotary Stage Axis Control" menu, which contains toggle buttons to de-energize/energize the rotary stage. While the stage is active, a small amount of holding current keeps the stage at its set position. However, the holding current is not enough to withstand the torque required to force the bottom piston of the PE press to its starting position after an experiment, and will thus throw an overcurrent fault if not deactivated before resetting the piston of the press. To avoid this unnecessary fault, the holding current of the rotation stage can be deactivated as follows. 
 
-2. Once the Automation1 software menu is visible, ensure the :guilabel:`639171-1-1 Loaded` box is selected and click :guilabel:`Connect`. 
+2. Once the "Aerotech Rotary Stage Axis Control" menus is visible click :guilabel:`Disable` to de-energize the stage. Once deactivated, the green light will turn gray.  Automation1 software menu is visible, ensure the :guilabel:`639171-1-1 Loaded` box is selected and click :guilabel:`Connect`. 
 
 .. figure:: /images/sample_removal/automation1_connect.png
    :alt: automation1_connect
