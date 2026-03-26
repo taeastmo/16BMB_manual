@@ -16,7 +16,7 @@ Sample Removal
 
 Clicking on this button will launch the "Aerotech Rotary Stage Axis Control" menu, which contains toggle buttons to de-energize/energize the rotary stage. While the stage is active, a small amount of holding current keeps the stage at its set position. However, the holding current is not enough to withstand the torque required to force the bottom piston of the PE press to its starting position after an experiment, and will thus throw an overcurrent fault if not deactivated before resetting the piston of the press. To avoid this unnecessary fault, the holding current of the rotation stage can be deactivated as follows. 
 
-2. Once the "Aerotech Rotary Stage Axis Control" menu is visible click :guilabel:`Disable` to de-energize the stage. Once deactivated, the green light will turn gray. 
+2. Once the "Aerotech Rotary Stage Axis Control" menu is visible click :guilabel:`Disable` to de-energize the stage. Once deactivated, the green light will turn gray. There will no longer be holding current applied to the rotary stage and the PE press can be rotated freely by hand.
 
 .. figure:: /images/sample_removal/Aerotech_axis_control_MEDM.png
    :alt: Aerotech_axis_control_MEDM
@@ -25,20 +25,7 @@ Clicking on this button will launch the "Aerotech Rotary Stage Axis Control" men
 
 |
 
-3. After connecting to the rotary stage controller, locate the toggle switch found in the bottom lefthand corner of the control screen. Click the toggle to deactivate the rotation stage motor. Once this is completed, there will be no holding current applied to the rotary stage and the PE press can be rotated freely by hand. 
-
-.. figure:: /images/sample_removal/automation1_axis_enabled.png
-   :alt: automation1_axis_enabled
-   :width: 720px
-   :align: center
-.. figure:: /images/sample_removal/automation1_axis_disabled.png
-   :alt: automation1_axis_disabled
-   :width: 720px
-   :align: center
-
-|
-
-4. Enter the hutch and rotate the PE press counterclockwise to align the hole of the lock with the locking pin.
+3. Enter the hutch and rotate the PE press counterclockwise to align the hole of the lock with the locking pin.
 
 .. important:: Please ensure the collimator tip is in the "out" position to avoid bumping the tip. If the tip is bumped, realignment can take several hours by the beamline staff.
 
@@ -49,7 +36,7 @@ Clicking on this button will launch the "Aerotech Rotary Stage Axis Control" men
 
 |
 
-5. Raise the locking pin into the lock with the socket head cap screw and secure the pin by dropping the screw into the retaining groove.
+4. Raise the locking pin into the lock with the socket head cap screw and secure the pin by dropping the screw into the retaining groove.
 
 .. figure:: /images/sample_removal/aerotech_locking_sequence.png
    :alt: aerotech_locking_sequence
@@ -58,7 +45,7 @@ Clicking on this button will launch the "Aerotech Rotary Stage Axis Control" men
 
 |
 
-6. Once the PE press is locked into place, used a crescent wrench to loosen the breech and gently force the top anvil to break away from the sample assembly. Carefully back out the breech until there is sufficient space to remove the sample cell. 
+5. Once the PE press is locked into place, used a crescent wrench to loosen the breech and gently force the top anvil to break away from the sample assembly. Carefully back out the breech until there is sufficient space to remove the sample cell. 
 
 .. warning:: Do not attempt to turn the breech until the valves of the syringe pump, including the line valve, have been opened. This should have already been completed, but review :ref:`Pressure control <Pressure_control>` if this step was skipped for some reason.
 
@@ -80,13 +67,7 @@ After removing the sample, the bottom piston of the PE press needs to be lowered
 
 |
 
-   5. Re-activate the rotation stage axis by clicking the toggle switch in the Automation1 software. Then, on the beamline control screen, click the rotation stage's :guilabel:`Home Pos.` button to align the PE press sample stages with the beamline coordinate system.
-
-
-.. figure:: /images/sample_removal/automation1_reconnect.png
-   :alt: Rot_stage_reconnect
-   :width: 720px
-   :align: center
+   5. Re-activate the rotation stage axis by toggling :guilabel:`Enable` in the "Aerotech Rotary Stage Axis Control" menus. Then, on the beamline control screen, click the rotation stage's :guilabel:`Home Pos.` button to align the PE press sample stages with the beamline coordinate system.
 
 .. figure:: /images/sample_removal/rot_axis_home.png
    :alt: Rot_stage_homed
