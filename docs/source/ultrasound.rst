@@ -48,7 +48,7 @@ Before beginning, create a folder named **US** in your data folder where the ult
 
    .. note:: Scope Vertical scale may need to be adjusted depending on the signal level to avoid saturation and to optimize the oscilloscope's dynamic range relative to the signal level.
 
-4. Set up the file system and directory fields to save your data. Create a folder on the beamline computer to save your ultrasound data for the current sample, navigate to inside that folder, then copy the entire path from the file explorer and paste it into the "File system" field on the sonicPy interface. The subdirectory should, ideally, be named to reflect the PT condition at which you are collecting ultrasound data. The base name will typically be something like "us_" to which the software will append file numbers corresponding to the frequencies used in the scan. 
+4. Set up the file system and directory fields to save your data. Create a folder on the beamline computer to save your ultrasound data for the current sample, navigate to inside that folder, then copy the entire path from the file explorer and paste it into the "File system" field on the sonicPy interface. The subdirectory should, ideally, be named to reflect the PT condition at which you are collecting ultrasound data. The base name will typically be something like 'us_' to which the software will append file numbers corresponding to the frequencies used in the scan. 
 
    .. figure:: /images/us_measurement/sonicpy_file_directory_setup.png
       :alt: sonicpy_file_directory_setup
