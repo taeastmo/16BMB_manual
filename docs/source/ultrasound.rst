@@ -55,6 +55,8 @@ Before beginning, create a folder named **US** in your data folder where the ult
       :width: 720px
       :align: center   
 
+|
+
 
 5. Set the 'Next file #' zero, if needed; and click :guilabel:`Go` in the Scan panel. The the frequency sweep will start and conclude on its own. To interrupt the scan mid-way click :guilabel:`Go` again. 
 
