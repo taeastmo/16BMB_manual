@@ -59,6 +59,7 @@ After removing the sample, the bottom piston of the PE press needs to be lowered
    2. Ensure all syringe pump valves are open, including the line valve.
    3. Turn the breech clockwise with a crescent wrench to drive the piston down.
    4. Close the line valve of the syrine pump to prevent the piston from raising again due to the weight of the hydraulic oil in the line.
+   5. Lower the locking pin to allow the rotary stage to rotate freely. 
 
 .. figure:: /images/sample_removal/PE_piston_reset.png
    :alt: PE_piston_reset
@@ -67,7 +68,7 @@ After removing the sample, the bottom piston of the PE press needs to be lowered
 
 |
 
-   5. Re-activate the rotation stage axis by toggling :guilabel:`Enable` in the "Aerotech Rotary Stage Axis Control" menu. Then, on the beamline control screen, click the rotation stage's :guilabel:`Home Pos.` button to align the PE press sample stages with the beamline coordinate system.
+   5. AFTER LOWERING THE LOCKING PIN, Re-activate the rotation stage axis by toggling :guilabel:`Enable` in the "Aerotech Rotary Stage Axis Control" menu. Then, on the beamline control screen, click the rotation stage's :guilabel:`Home Pos.` button to align the PE press sample stages with the beamline coordinate system.
 
 .. figure:: /images/sample_removal/rot_axis_home.png
    :alt: Rot_stage_homed
