@@ -68,7 +68,7 @@ After removing the sample, the bottom piston of the PE press needs to be lowered
 
 |
 
-   5. AFTER LOWERING THE LOCKING PIN, Re-activate the rotation stage axis by toggling :guilabel:`Enable` in the "Aerotech Rotary Stage Axis Control" menu. Then, on the beamline control screen, click the rotation stage's :guilabel:`Home Pos.` button to align the PE press sample stages with the beamline coordinate system.
+   6. AFTER LOWERING THE LOCKING PIN, Re-activate the rotation stage axis by toggling :guilabel:`Enable` in the "Aerotech Rotary Stage Axis Control" menu. Then, on the beamline control screen, click the rotation stage's :guilabel:`Home Pos.` button to align the PE press sample stages with the beamline coordinate system.
 
 .. figure:: /images/sample_removal/rot_axis_home.png
    :alt: Rot_stage_homed
