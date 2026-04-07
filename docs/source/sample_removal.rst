@@ -4,80 +4,120 @@ Due to several changes following the APS-Upgrade, users must adhere to the follo
 
 .. warning:: Failure to follow these instructions can lead to damage of beamline equipment and loss of experimental time.
 
+.. important:: Please ensure the collimator tip is in the "out" position before beginning this procedure to avoid bumping the tip. If the tip is bumped, realignment can take several hours by the beamline staff.
+
 Sample Removal
 ^^^^^^^^^^^^^^
-1. After following the decompression steps outlined in :ref:`Pressure control <Pressure_control>` as well as the steps to disable and interlock the heater power supply as explained in :ref:`Heating control <Heating_control>`, find the button :guilabel:`Axis Control` in the "PE Rotation" area of the main control screen:
+After following the decompression steps outlined in :ref:`Pressure control <Pressure_control>` as well as the steps to disable and interlock the heater power supply as explained in :ref:`Heating control <Heating_control>`, follow the following procedure.
 
-.. figure:: /images/sample_removal/Main_control_screen_rotary_axis_control.png
-   :alt: Main_control_Screen_rotary_axis_control
+1. Move the collimator tip to the "out" position
+2. Put on safety glasses 
+3. Open the PE press line valve
+4.	Remove the bottom anvil with magnets
+5.	Put the sacrificial aluminum block inside the PE press
+
+.. figure:: /images/sample_removal/aluminum_block.png
+   :alt: aluminum_block
    :width: 720px
    :align: center
 |
 
-Clicking on this button will launch the "Aerotech Rotary Stage Axis Control" menu, which contains toggle buttons to de-energize/energize the rotary stage. While the stage is active, a small amount of holding current keeps the stage at its set position. However, the holding current is not enough to withstand the torque required to force the bottom piston of the PE press to its starting position after an experiment, and will thus throw an overcurrent fault if not deactivated before resetting the piston of the press. To avoid this unnecessary fault, the holding current of the rotation stage can be deactivated as follows. 
+6. Remove the hydraulic reset piston from the red 3D printed holder
+7.	Mount the reset piston in the PE press by aligning the holes in the reset jig with the 6 shoulder bolts on the top of the PE press. Once the holes are aligned, drop the jig into the press and rotate the jig clockwise to lock it in place.
 
-2. Once the "Aerotech Rotary Stage Axis Control" menu is visible click :guilabel:`Disable` to de-energize the stage. Once deactivated, the green light will turn gray. There will no longer be holding current applied to the rotary stage and the PE press can be rotated freely by hand.
-
-.. figure:: /images/sample_removal/Aerotech_axis_control_MEDM.png
-   :alt: Aerotech_axis_control_MEDM
-   :width: 360px
-   :align: center
-
-|
-
-3. Enter the hutch and rotate the PE press counterclockwise to align the hole of the lock with the locking pin.
-
-.. important:: Please ensure the collimator tip is in the "out" position to avoid bumping the tip. If the tip is bumped, realignment can take several hours by the beamline staff.
-
-.. figure:: /images/sample_removal/PE_press_rotated.png
-   :alt: PE_press_rotated
+.. figure:: /images/sample_removal/reset_jig_installation.png
+   :alt: reset_jig_installation
    :width: 720px
    :align: center
-
 |
 
-4. Raise the locking pin into the lock with the socket head cap screw and secure the pin by dropping the screw into the retaining groove.
+8.	Lower the spring-loaded alignment pin to prevent the jig from turning during the reset process
 
-.. figure:: /images/sample_removal/aerotech_locking_sequence.png
-   :alt: aerotech_locking_sequence
+.. figure:: /images/sample_removal/alignment_pin.png
+   :alt: alignment_pin
    :width: 720px
    :align: center
-
 |
 
-5. Once the PE press is locked into place, used a crescent wrench to loosen the breech and gently force the top anvil to break away from the sample assembly. Carefully back out the breech until there is sufficient space to remove the sample cell. 
+9.	Locate the hydraulic line and connect it to the reset piston. Pull down on the quick connect collar and insert the hydraulic line, then release the quick connect collar and ensure the hydraulic line is securely attached. 
 
-.. warning:: Do not attempt to turn the breech until the valves of the syringe pump, including the line valve, have been opened. This should have already been completed, but review :ref:`Pressure control <Pressure_control>` if this step was skipped for some reason.
+.. figure:: /images/sample_removal/hydraulic_line_connection.png
+   :alt: hydraulic_line_connection
+   :width: 320px
+   :align: center
+|
 
-Lowering the PE press piston
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. important:: This process takes patience and cannot be rushed with "brute force." The friction between the hydraulic line and oil prevents rapid movement of the piston, and trying to rush the process only increases the chances that the crescent wrench will slip off of the breech and collide with the collimation tip or the pre-sample slits.
+10. Locate the yellow hand hydraulic pump mounted under the second search box on the upstream wall of the hutch.
 
-After removing the sample, the bottom piston of the PE press needs to be lowered to allow sufficient travel for compression of the next sample. 
+.. figure:: /images/sample_removal/pump_cropped.jpg
+   :alt: pump_cropped
+   :width: 320px
+   :align: center
+|
+11.	Ensure the pressure release knob is fully closed (turn it to the right).
 
-   1. With the PE press rotation locked, place the plastic spacer block in between the two anvils.
-   2. Ensure all syringe pump valves are open, including the line valve.
-   3. Turn the breech clockwise with a crescent wrench to drive the piston down.
-   4. Close the line valve of the syrine pump to prevent the piston from raising again due to the weight of the hydraulic oil in the line.
-   5. Lower the locking pin to allow the rotary stage to rotate freely. 
+.. figure:: /images/sample_removal/closed_release_valve.png
+   :alt: closed_relief_valve
+   :width: 320px
+   :align: center
+|
 
-.. figure:: /images/sample_removal/PE_piston_reset.png
-   :alt: PE_piston_reset
+12.	Pump oil until the pressure gauge shows 500 psi of pressure. DO NOT EXCEED 500 PSI OF PRESSURE.
+
+.. figure:: /images/sample_removal/pressure_gauge.jpg
+   :alt: pressure_gauge
+   :width: 320px
+   :align: center
+|  
+13.	The piston will engage with the sacrificial aluminum block inside the PE press and begin to push the piston of the PE press down. After a few seconds, the pressure on the gauge of the reset pump will begin to drop. Pump a small amount of oil until the pressure reaches 500 psi again. 
+
+.. figure:: /images/sample_removal/piston_engaging.png
+   :alt: piston_engaging
    :width: 720px
    :align: center
+|  
+14.	Over the next few minutes, alternate between maintaining the pressure at 500 psi and visually monitoring the PE press piston. After 3-4 minutes, the piston of the PE press should be fully retracted. 
 
-|
-
-   6. AFTER LOWERING THE LOCKING PIN, Re-activate the rotation stage axis by toggling :guilabel:`Enable` in the "Aerotech Rotary Stage Axis Control" menu. Then, on the beamline control screen, click the rotation stage's :guilabel:`Home Pos.` button to align the PE press sample stages with the beamline coordinate system.
-
-.. figure:: /images/sample_removal/rot_axis_home.png
-   :alt: Rot_stage_homed
+.. figure:: /images/sample_removal/PE_piston_retraction.png
+   :alt: PE_piston_retraction
    :width: 720px
    :align: center
+|  
 
-|
+15.	Once the piston is retracted, open the pressure release valve by turning the knob to the left. The pressure on the gauge will drop to 0 psi and the reset piston will be retracted. 
 
-.. warning:: The syringe pump is now located on the 16BMB hutch roof, which puts the hydraulic oil reservior and majority of the hydraulic line above the height of the PE press. The potential energy of the oil in the line is enough to push the bottom piston of the press upwards and, given enough time, to pop the piston completely out of the press body. The latter would cause a significant oil leak and result in a loss of at least 3 shifts of beamtime. After removing the sample and lowering the press piston, the line valve MUST BE CLOSED until the next sample is loaded and compressed.    
+.. figure:: /images/sample_removal/open_release_valve.png
+   :alt: open_release_valve
+   :width: 320px
+   :align: center
+|  
+
+16.	Push the handle of the pump up towards the body of the pump and close the pressure release knob by turning it to the right. 
+
+.. figure:: /images/sample_removal/closed_release_valve.png
+   :alt: closed_release_valve
+   :width: 320px
+   :align: center
+|  
+17.	Disconnect the hydraulic line from the reset piston by pulling down on the collar of the quick disconnect fitting and removing the line. Use a paper towel to catch the small amount of oil that will drop from the line after it is disconnected. Carefully wipe the line clean and store it out of the way behind the PE press.
+18.	Close the line valve of the PE press on the User Control Screen. If you fail to do this, the piston will rise on its own over the next few minutes and you be required to repeat the entire reset process.
+
+.. figure:: /images/sample_removal/line_valve.png
+   :alt: line_valve
+   :width: 720px
+   :align: center
+|  
+
+.. warning:: The syringe pump is now located on the 16BMB hutch roof, which puts the hydraulic oil reservior and majority of the hydraulic line above the height of the PE press. The potential energy of the oil in the line is enough to push the bottom piston of the press upwards and, given enough time, to pop the piston completely out of the press body. The latter would cause a significant oil leak and result in a loss of at least 3 shifts of beamtime. After removing the sample and lowering the press piston, the line valve MUST BE CLOSED until the next sample is loaded and compressed.  
+
+19.	Replace the bottom anvil using magnets. Ensure you do not accidentally load an US anvil in the bottom of the press—it should be a standard anvil.
+
+
+
+
+
+
+  
 
 
 

@@ -3,7 +3,7 @@
 Pressure control
 ----------------
 The PEC oil pressure is controlled by the Teledyne ISCO 30D dual syringe pump system. 
-The maximum pressure allowed is 14,000 psi (9,000 psi for ultrasound or grooved cells).
+The maximum pressure allowed is 12,000 psi (9,000 psi for ultrasound or grooved cells).
 Syringe pump is controlled through the MEDM interface
 
 .. figure:: /images/operation/syringe_pump_interface.png
@@ -37,7 +37,7 @@ Compression
    .. note:: Pressure may go up to ~80 psi and fluctuate somewhat during this process. 
       Wait until the Actual oil pressure stabilizes at 20 psi.
 
-   6. Increase the Oil pressure setpoint to your required pressure (maximum allowed is 14,000psi). Pump will gradually reach the setpoint pressure and maintain the pressure continuously. 
+   6. Increase the Oil pressure setpoint to your required pressure (maximum allowed is 12,000psi for standard anvils, 9,000psi for grooved and ultrasonic anvils). Pump will gradually reach the setpoint pressure and maintain the pressure continuously. 
    #. If you don't want the pump to maintain the pressure continuously after reaching the setpoint, set the Maximum oil flow-rates for pumps A and B to 0.0001 ml/min. 
 
    .. important:: DO NOT switch Pressure Control to Stop.  
