@@ -1,0 +1,25 @@
+{
+    // HOW TO USE:
+    // 1. Press Ctrl+Shift+B (or Terminal > Run Task > Sphinx: Live Preview)
+    // 2. Open http://127.0.0.1:8080 in your browser
+    // 3. The page will auto-refresh whenever you save an .rst file
+    // 4. Press Ctrl+C in the terminal to stop the server
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sphinx: Live Preview",
+            "type": "shell",
+            "command": "sphinx-autobuild docs/source docs/build/html --port 8080",
+            "problemMatcher": [],
+            "isBackground": true,
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
