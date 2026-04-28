@@ -1,9 +1,13 @@
 {
     // HOW TO USE:
+    // --- Start ---
     // 1. Press Ctrl+Shift+B (or Terminal > Run Task > Sphinx: Live Preview)
     // 2. Open http://127.0.0.1:8080 in your browser
     // 3. The page will auto-refresh whenever you save an .rst file
-    // 4. Press Ctrl+C in the terminal to stop the server
+    // --- Stop ---
+    // 4. When done: Ctrl+Shift+P > Tasks: Run Task > Sphinx: Stop Preview
+    //    This kills the process on port 8080 so it can be restarted cleanly.
+    //    (If you skip this and port 8080 is busy, the start task will fail with exit code 1.)
     "version": "2.0.0",
     "tasks": [
         {
@@ -19,6 +23,16 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
+            }
+        },
+        {
+            "label": "Sphinx: Stop Preview",
+            "type": "shell",
+            "command": "Stop-Process -Id (Get-NetTCPConnection -LocalPort 8080 -ErrorAction SilentlyContinue).OwningProcess -ErrorAction SilentlyContinue; Write-Host 'Port 8080 released.'",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
             }
         }
     ]
