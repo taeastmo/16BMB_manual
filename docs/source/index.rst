@@ -33,6 +33,7 @@
    yz_pos
    x_pos
    pressure
+   sample_loading
    sample_removal
    heating
    aEDXD

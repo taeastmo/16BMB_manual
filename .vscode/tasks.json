@@ -2,18 +2,18 @@
     // HOW TO USE:
     // --- Start ---
     // 1. Press Ctrl+Shift+B (or Terminal > Run Task > Sphinx: Live Preview)
+    //    (Any existing preview on port 8080 is stopped automatically before starting.)
     // 2. Open http://127.0.0.1:8080 in your browser
     // 3. The page will auto-refresh whenever you save an .rst file
     // --- Stop ---
     // 4. When done: Ctrl+Shift+P > Tasks: Run Task > Sphinx: Stop Preview
-    //    This kills the process on port 8080 so it can be restarted cleanly.
-    //    (If you skip this and port 8080 is busy, the start task will fail with exit code 1.)
+    //    NOTE: Closing the terminal panel does NOT stop the server — you must run this task.
     "version": "2.0.0",
     "tasks": [
         {
             "label": "Sphinx: Live Preview",
             "type": "shell",
-            "command": "sphinx-autobuild docs/source docs/build/html --port 8080",
+            "command": "$p=(Get-NetTCPConnection -LocalPort 8080 -State Listen -EA SilentlyContinue).OwningProcess; if($p){Stop-Process -Id $p -Force -EA SilentlyContinue; Start-Sleep 1}; & 'C:\\Users\\teastmond\\.conda\\envs\\sphinx_readthedocs\\Scripts\\sphinx-autobuild.exe' docs/source docs/build/html --port 8080 2>&1",
             "problemMatcher": [],
             "isBackground": true,
             "presentation": {
@@ -28,7 +28,7 @@
         {
             "label": "Sphinx: Stop Preview",
             "type": "shell",
-            "command": "Stop-Process -Id (Get-NetTCPConnection -LocalPort 8080 -ErrorAction SilentlyContinue).OwningProcess -ErrorAction SilentlyContinue; Write-Host 'Port 8080 released.'",
+            "command": "$p = (Get-NetTCPConnection -LocalPort 8080 -State Listen -ErrorAction SilentlyContinue).OwningProcess; if ($p) { Stop-Process -Id $p -Force -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1; Write-Host 'Port 8080 released.' } else { Write-Host 'Port 8080 is already free.' }",
             "problemMatcher": [],
             "presentation": {
                 "reveal": "always",

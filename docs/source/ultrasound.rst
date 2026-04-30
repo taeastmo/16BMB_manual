@@ -3,7 +3,12 @@
 Ultrasound measurement
 ----------------------
 
-A GUI porgram sonicPy is used for the ultrasound measurement. SonicPy allows to automatically record ultrasound ultrasound waveforms from the oscilloscope with varying exitation wave frequencies.
+Before beginning an ultrasound measurement, ensure that you have placed a thin layer of gold foil over the exposed face of the buffer rod before lowering the breech. Additionally, ensure that you have inserted the transmitting rod into the hole on the breech, as shown below.
+
+INSERT IMAGE HERE
+
+
+To acquire and view the ultrasonic waveforms, a GUI porgram called SonicPy is provided on the beamline control computer. SonicPy allows to automatically record ultrasound ultrasound waveforms from the oscilloscope with varying exitation wave frequencies.
 
 Before beginning, create a folder named **US** in your data folder where the ultrasound data will be saved to. 
 
