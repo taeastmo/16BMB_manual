@@ -22,28 +22,30 @@ Procedure for increasing, maintaining, and decreasing pressure.
 Compression
 ^^^^^^^^^^^
 
-   1. Open the PE press line valve.
-   2. Make sure Mode is selected as “Compress”. 
+   1. Ensure the collimator tip is in the "out" position. 
+   2. Open the PE press line valve.
+   3. Make sure Mode is selected as “Compress”. 
 
    .. note:: Stop the Pressure Control before switching Mode. (Mode button is hidden while Pressure Control is in “Run” state). 
 
-   3. Refill pumps A and B (click the button :guilabel:`Refill` for each pump). 
+   4. Refill pumps A and B (click the button :guilabel:`Refill` for each pump). 
 
    .. note:: Wait until both pumps finish refilling.
 
-   4. Set Max flow for both pumps to 5ml/min.
+   5. Set Max flow for both pumps to 5ml/min.
    #. Set the Oil pressure setpoint to 20 psi.
+   #. Open the PE press line valve.
    #. Set Pressure control to Run. Pump will go through the initial equalization sequence; this will take around 30 seconds to one minute. 
 
    .. note:: Pressure may go up to ~80 psi and fluctuate somewhat during this process. 
       Wait until the Actual oil pressure stabilizes at 20 psi.
 
-   5. Increase the Oil pressure setpoint to your required pressure (maximum allowed is 12,000psi for standard anvils, 9,000psi for grooved and ultrasonic anvils). Pump will gradually reach the setpoint pressure and maintain the pressure continuously. 
+   #. Increase the Oil pressure setpoint to your required pressure (maximum allowed is 12,000psi for standard anvils, 9,000psi for grooved and ultrasonic anvils). Pump will gradually reach the setpoint pressure and maintain the pressure continuously. 
    #. If you don't want the pump to maintain the pressure continuously after reaching the setpoint, set the Maximum oil flow-rates for pumps A and B to 0.0001 ml/min. 
 
    .. important:: DO NOT switch Pressure Control to Stop.  
 
-   6. To reach the next oil pressure setpoint, re-enable pressure control by setting Max flow rates back to 5 ml/min.
+   #. To reach the next oil pressure setpoint, re-enable pressure control by setting Max flow rates back to 5 ml/min.
 
 Decompression
 ^^^^^^^^^^^^^
