@@ -50,6 +50,8 @@ Compression
 Decompression
 ^^^^^^^^^^^^^
 
+To decompress the sample, either follow the steps below or use the interactive procedure on the control screen by clicking the button 'Decompression Procedure' at the very bottom of the control window.
+
    #. Move the collimation tip to the "out" position.
    #. Close the line valve to the PE press.
    #. Set Pressure Control to Stop. If the :guilabel:`Stop` button is missing, it means the line valve of the press is still open and the pressure is too high to safely switch to Decompress mode. Please close the line value and the :guilabel:`Stop` button will reappear.
