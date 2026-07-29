@@ -23,16 +23,15 @@ Compression
 ^^^^^^^^^^^
 
    1. Ensure the collimator tip is in the "out" position. 
-   2. Open the PE press line valve.
-   3. Make sure Mode is selected as “Compress”. 
+   2. Make sure Mode is selected as “Compress”. 
 
    .. note:: Stop the Pressure Control before switching Mode. (Mode button is hidden while Pressure Control is in “Run” state). 
 
-   4. Refill pumps A and B (click the button :guilabel:`Refill` for each pump). 
+   3. Refill pumps A and B (click the button :guilabel:`Refill` for each pump). 
 
    .. note:: Wait until both pumps finish refilling.
 
-   5. Set Max flow for both pumps to 5ml/min.
+   4. Set Max flow for both pumps to 5ml/min.
    #. Set the Oil pressure setpoint to 20 psi.
    #. Open the PE press line valve.
    #. Set Pressure control to Run. Pump will go through the initial equalization sequence; this will take around 30 seconds to one minute. 
