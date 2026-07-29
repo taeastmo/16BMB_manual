@@ -26,6 +26,7 @@ If you need to heat your sample during your experiment, the procedure is as foll
    1. Flip the interlock switch down so the indicator light turns green.
    2. See that the thick power cables are connected to the press.
 
+..
    .. figure:: /images/operation/heating_cable_connections.png
       :alt: heating_cable_connections
       :width: 600px
