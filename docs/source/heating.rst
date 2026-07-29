@@ -14,7 +14,6 @@ An interlock switch is located on the experimental table to the immediate right 
    :align: center
 
 
-
 .. figure:: /images/operation/TDK_heating_controls_menu.png
    :alt: TDK_heating_controls_menu
    :width: 700px
@@ -40,36 +39,34 @@ If you need to heat your sample during your experiment, the procedure is as foll
 
 Once the heater control screen is open, follow these steps:
 
-   1. Before beginning heating, ensure that the PID power setpoint and voltage setpoint are set to zero. 
+   1. Before beginning heating, ensure that the PID power setpoint and voltage setpoint are set to zero. They should be automatically set to zero, so contact the beamline scientist if they are not. 
    2. Input '8' in the voltage protection and limit setpoint fields. 
    3. Input '200' in the current limit field. Please input again even if the value is 200. 
    4.	Click :guilabel:`Clear fault`.
-   5. Turn on the PID controller (with the setpoint still at 0).
-   6. Enable the power output.
-   7. Set the PID to 1-2 W. The voltage will start to increase by 0.001 V at a time. When the voltage reaches ~0.035 V (depending on the resistance of the sample cell), the TDK will begin outputting current and the PID should have good control over the power supply. 
+   5. Enable the power output. After enabling, the PID on/off control toggle will appear along with arrows for tweaking the PID setpoint.
+   
+   .. figure:: /images/operation/heater_power_enable.png
+      :alt: heating_cable_connections
+      :width: 600px
+      :align: center
+
+   6. Turn on the PID controller (with the setpoint still at 0).
+   7. Tweak the PID to 1-2 W. The voltage will start to increase by 0.001 V at a time. When the voltage reaches ~0.035 V (depending on the resistance of the sample cell), the TDK will begin outputting current and the PID should have good control over the power supply. 
    8. Check that 'Readback (Watt)' is responding, and 'Resistance' is lower than 0.1 (typically, ~0.04-0.05 at ~1 W).
-   9. If heater response and resistance is okay, increase 'Setpoint (Watt)' slowly (it is better to keep <5 difference between 'Readback (Watt)' and 'Setpoint (Watt).).
+   9.  If heater response and resistance is okay, increase 'Setpoint (Watt)' slowly (it is better to keep <5 difference between 'Readback (Watt)' and 'Setpoint (Watt).).
  
 .. Note:: Response of heater is slow particularly at <10W. Please wait a while.
-
-
-.. Note:: The PID controller will take care of the current output. Never change the value shown in the current setpoint field, either during or before heating.
-
-
-.. Warning:: If you fail to set BOTH the PID power setpoint and voltage setpoint to zero before beginning heating, you run the risk of instantly applying a large amount of current to the press and subsequently destroying the graphite heater. Even if the PID power setpoint is zero, a non-zero value of voltage will cause the heater to output some amount of current (often a very large value), before slowly trying to back the voltage and current down to the PID power setpoint. 
-  
+ 
 
 Cooling can be done by
 
-    (1) slow cooling by gradually decreasing 'Setup (Watt)' to 0, or 
+    (1) slow cooling by gradually decreasing the setpoint to 0, or 
     (2) Turn OFF 'Power Output' to quench sample.
 
 In both cases, after cooling,
 
-   #. Input 0 for the PID power setpoint.
-   #. 'PID On/OFF' OFF
-   #. 'Power Output' OFF
-   #. Input 0 in 'Set Point (V)' under 'Voltage'.
+   #. Ensure that the 'Power Output' is set to 'off'. Toggling this switch to off should automatically force both the PID Power and Voltage setpoints to 0.
    #. Toggle the interlock switch so the light turns green.
+   #. Shut off the water flow to the cooling lines.
 
-.. danger:: Do not touch the press until disabling the power supply output and enabling the interlock switch in the hutch. Even after the power is off, please take care. If you heated more than 1000 °C for more than several hours, the press body may be hot. Please wait until the press body is cool.
+.. danger:: Do not touch the press until disabling the power supply output and enabling the interlock switch in the hutch. Even after the power is off, please take care. If you heated more than 1000 °C for more than an hour, the press body may be hot. Please wait until the press body is cool.
