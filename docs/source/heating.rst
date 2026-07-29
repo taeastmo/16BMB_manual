@@ -14,6 +14,13 @@ An interlock switch is located on the experimental table to the immediate right 
    :align: center
 
 
+This is a test 
+
+.. figure:: /images/operation/mode_setup_menu.png
+   :alt: TDK_interlock_diagram
+   :width: 600px
+   :align: center
+
 
 If you need to heat your sample during your experiment, the procedure is as follows:
 
