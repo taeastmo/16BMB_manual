@@ -14,11 +14,10 @@ An interlock switch is located on the experimental table to the immediate right 
    :align: center
 
 
-This is a test
 
-.. figure:: /images/operation/mode_setup_menu.png
-   :alt: TDK_interlock_diagram
-   :width: 600px
+.. figure:: /images/operation/TDK_heating_controls_menu.png
+   :alt: TDK_heating_controls_menu
+   :width: 700px
    :align: center
 
 
