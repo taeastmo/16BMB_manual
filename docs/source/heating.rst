@@ -14,13 +14,6 @@ An interlock switch is located on the experimental table to the immediate right 
    :align: center
 
 
-
-.. figure:: /images/operation/TDK_heating_controls_menu.png
-   :alt: TDK_heating_controls_menu
-   :width: 700px
-   :align: center
-
-
 If you need to heat your sample during your experiment, the procedure is as follows:
 
    1. Flip the interlock switch down so the indicator light turns green.
@@ -36,6 +29,13 @@ If you need to heat your sample during your experiment, the procedure is as foll
    5. Before leaving the hutch, flip the toggle switch on the interlock so the light turns yellow.
    6. Compress the sample to the desired pressure.
    7. On the beamline control sceen, click :guilabel:`HEATING` to bring up the TDK power supply control screen.
+
+.. figure:: /images/operation/TDK_heating_controls_menu.png
+   :alt: TDK_heating_controls_menu
+   :width: 700px
+   :align: center
+
+
    8. Before starting heating, it is recommended to start a strip chart to save log of heating. Instructions for this are included in the "General Data Logging" section of this manual.
 
 Once the heater control screen is open, follow these steps:
