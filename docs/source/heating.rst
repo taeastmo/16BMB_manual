@@ -41,8 +41,9 @@ If you need to heat your sample during your experiment, the procedure is as foll
 Once the heater control screen is open, follow these steps:
 
    1. Before beginning heating, ensure that the PID power setpoint and voltage setpoint are set to zero. They should be automatically set to zero, so contact the beamline scientist if they are not. 
-   2. Input '8' in the voltage protection and limit setpoint fields. 
-   3. Input '200' in the current limit field. Please input again even if the value is 200. 
+   2. If you haven't already, close the PE press line valve or set the flow rate on pumps A and B to 0.0001 ml/min. 
+   3. Input '8' in the voltage protection and limit setpoint fields. This ensures more repeatable heating cycles.  
+   4. Input '200' in the current limit field. Please input again even if the value is 200. 
    4.	Click :guilabel:`Clear fault`.
    5. Enable the power output. After enabling, the PID on/off control toggle will appear along with arrows for tweaking the PID setpoint.
    
