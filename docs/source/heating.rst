@@ -28,7 +28,8 @@ If you need to heat your sample during your experiment, the procedure is as foll
    4. Turn on and position the fan to cool the PE press body.
    5. Before leaving the hutch, flip the toggle switch on the interlock so the light turns yellow.
    6. Compress the sample to the desired pressure.
-   7. On the beamline control sceen, click :guilabel:`HEATING` to bring up the TDK power supply control screen.
+   7. Allow the pressure to equilibrate for a few minutes and then close the line valve to the PE press. Alternatively, set the flow rate on pumps A and B to 0.0001 ml/min.
+   8. On the beamline control sceen, click :guilabel:`HEATING` to bring up the TDK power supply control screen.
 
 .. figure:: /images/operation/TDK_heating_controls_menu.png
    :alt: TDK_heating_controls_menu
