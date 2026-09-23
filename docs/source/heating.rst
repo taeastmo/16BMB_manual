@@ -45,18 +45,18 @@ Once the heater control screen is open, follow these steps:
    2. If you haven't already, close the PE press line valve or set the flow rate on pumps A and B to 0.0001 ml/min. 
    3. Input '8' in the voltage protection and limit setpoint fields. This ensures more repeatable heating cycles.  
    4. Input '200' in the current limit field. Please input again even if the value is 200. 
-   4.	Click :guilabel:`Clear fault`.
-   5. Enable the power output. After enabling, the PID on/off control toggle will appear along with arrows for tweaking the PID setpoint.
+   5. Click :guilabel:`Clear fault`.
+   6. Enable the power output. After enabling, the PID on/off control toggle will appear along with arrows for tweaking the PID setpoint.
    
    .. figure:: /images/operation/heater_power_enable.png
       :alt: heating_cable_connections
       :width: 600px
       :align: center
 
-   6. Turn on the PID controller (with the setpoint still at 0).
-   7. Tweak the PID to 1-2 W. The voltage will start to increase by 0.001 V at a time. When the voltage reaches ~0.035 V (depending on the resistance of the sample cell), the TDK will begin outputting current and the PID should have good control over the power supply. 
-   8. Check that 'Readback (Watt)' is responding, and 'Resistance' is lower than 0.1 (typically, ~0.04-0.05 at ~1 W).
-   9.  If heater response and resistance is okay, increase 'Setpoint (Watt)' slowly (it is better to keep <5 difference between 'Readback (Watt)' and 'Setpoint (Watt).).
+   7. Turn on the PID controller (with the setpoint still at 0).
+   8. Tweak the PID to 1-2 W. The voltage will start to increase by 0.001 V at a time. When the voltage reaches ~0.035 V (depending on the resistance of the sample cell), the TDK will begin outputting current and the PID should have good control over the power supply. 
+   9. Check that 'Readback (Watt)' is responding, and 'Resistance' is lower than 0.1 (typically, ~0.04-0.05 at ~1 W).
+   10. If heater response and resistance is okay, increase 'Setpoint (Watt)' slowly (it is better to keep <5 difference between 'Readback (Watt)' and 'Setpoint (Watt).).
  
 .. Note:: Response of heater is slow particularly at <10W. Please wait a while.
  

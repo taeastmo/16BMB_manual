@@ -62,6 +62,7 @@ To decompress the sample, either follow the steps below or use the interactive p
       Wait until the level in that pump reaches around 7.5 ml.
 
    6. Ensure the pressure of the pump is within 100 psi of the line valve pressure, then open the line valve.
+   7. Set the flow rate for pumps A and B to 1 ml/min.
    #. Set the setpoint pressure to 20 psi.
    #. After the actual oil pressure is at 20 psi, switch pressure control to Stop.
    #. Open the valves to vent the remaining oil pressure:
